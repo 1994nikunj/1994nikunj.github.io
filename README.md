@@ -1,4 +1,6 @@
-# Nikunj Sharma
+<img src="static/MyLogo.png" align="right" height=110/>
+
+# &nbsp; Nikunj Sharma
 
 ---
 > ### Address: NJ, USA 07307
