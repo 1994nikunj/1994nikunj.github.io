@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	background: linear-gradient(206deg, #000e71, #000000, #570000);
+	background-size: 600% 600%;
+	animation: AnimationName 14s ease infinite;
+}
+
+@keyframes AnimationName {
+	0% {
+		background-position: 87% 0%
+	}
+
+	50% {
+		background-position: 14% 100%
+	}
+
+	100% {
+		background-position: 87% 0%
+	}
+}
