@@ -7,50 +7,50 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Nikunj Sharma
+    tagline: Software Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    email: 1994nikunj@gmail.com
+    phone: (201)-952 3563
+    timezone: Eastern Timezone
+    citizenship: Indian
+    website: 1994nikunj.github.io #do not add http://
+    linkedin: linkedin.com/in/1994nikunj
+    xing:
+    github: 1994nikunj
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    goodreads:
+    pdf:
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Hindi
           level: Native
 
-        - idiom: French
+        - idiom: English
           level: Professional
 
         - idiom: Spanish
-          level: Professional
+          level: Beginner
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Video Games
           link:
 
-        - item: Snowboarding
+        - item: Motorcycles
           link:
 
-        - item: Cooking
+        - item: Designing
           link:
 
 career-profile:
@@ -65,9 +65,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Master of Science, Computer Science
+        university: STEVENS INSTITUTE OF TECHNOLOGY | NJ, USA
+        time: MAY 2023
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -76,9 +76,9 @@ education:
           pretium quis, sem.
             - Bullet point
             - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+      - degree: Bachelor of Engineering, Computer Engineering
+        university: MAHARASHTRA INSTITUTE OF TECHNOLOGY | Pune, INDIA
+        time: MAY 2017
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
