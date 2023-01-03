@@ -112,11 +112,13 @@ projects:
     assignments:
       - title: PINNACLE Award - Xtraordinaires Team | Issued by Accenture | Feb 2021
         link: ""
-        tagline: Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
-                 experience. 
-          Your ONE Team spirit is a fantastic example of how our people should bring their best selves to work. 
-          
-          Thank you for your commitment"
+        tagline: "\n
+                  Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
+                  experience.
+                  \n
+                  Your ONE Team spirit is a fantastic example of how our people should bring their best selves to work.
+                  \n
+                  Thank you for your commitment"
 
       - title: PINNACLE Award - Game Changer | Issued by Accenture | Jan 2021
         link: ""
