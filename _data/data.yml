@@ -59,14 +59,14 @@ career-profile:
       I want to be a part of something meaningful, where organizational success is aligned to individual growth 
       and achievements is measured in terms of positive outcomes. Furthermore, growth should never be achieved at 
       the price of environmental. social or personal upheaval.
-             |
+      
       Technology isn't just a tool, it's an experience, and the thing about experience is that you can 
       go as far as your imagination takes you.
+      
       So, now, in industry and in college, this passion remains with me. There's undoubtedly more to learn, 
       more problems to solve, and yet more to create. And for this, I am quite excited and grateful.
-             |
       Feel free to contact me; I'm open for conversations, collaborations, programming guidance, 
-      technological support, and others :)
+      technological support, and others.
 education:
     title: Education
     info:
@@ -79,20 +79,18 @@ education:
         time: MAY 2017
         details:
 experiences:
-    title: Experiences
+    title: Professional Experience
     info:
       - role: Graduate Student Assistant
         time: 2023 - Present
         company: Stevens Institute of Technology, NJ, USA
         details: |
-          Role:
             - My role involves developing credentials for training the defense acquisition workforce in 
               the areas of artificial intelligence and data analytics.
       - role: Application Development Senior Analyst
         time: JUN 2021 – DEC 2021
         company: Accenture, India
         details: |
-          Role:
             - Leading the design, development, and integration of backend technologies with cloud and REST services. 
             - As the lead senior developer, I was entrusted with being the client's point of contact 
               throughout the software development lifecycle, including analysis and development.
@@ -100,14 +98,12 @@ experiences:
         time: DEC 2019 – JUN 2021
         company: Accenture, India
         details: |
-          Role:
             - I’ve debugged and deployed the fix for a critical bug within 60 minutes, which had nationwide impact. 
             - I’ve helped containerize monolithic architecture to docker based distributed systems, achieving benefits.
       - role: Application Development Associate
         time: OCT 2017 – DEC 2019
         company: Accenture, India
         details: |
-          Role:
             - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
               like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
 projects:
@@ -116,9 +112,11 @@ projects:
     assignments:
       - title: PINNACLE Award - Xtraordinaires Team | Issued by Accenture | Feb 2021
         link: ""
-        tagline: "Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
-                  experience. Your ONE Team spirit is a fantastic example of how our people should bring their best 
-                  selves to work. Thank you for your commitment"
+        tagline: |
+          - Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
+            experience. 
+          - Your ONE Team spirit is a fantastic example of how our people should bring their best selves to work. 
+            Thank you for your commitment"
 
       - title: PINNACLE Award - Game Changer | Issued by Accenture | Jan 2021
         link: ""
