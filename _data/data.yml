@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -17,7 +17,7 @@ sidebar:
     timezone: Eastern Timezone
     citizenship: Indian
     website: 1994nikunj.github.io #do not add http://
-    linkedin: linkedin.com/in/1994nikunj
+    linkedin: 1994nikunj
     xing:
     github: 1994nikunj
     telegram: # add your nickname without '@' sign
@@ -66,67 +66,45 @@ education:
     title: Education
     info:
       - degree: Master of Science, Computer Science
-        university: STEVENS INSTITUTE OF TECHNOLOGY | NJ, USA
+        university: Stevens Institute of Technology
         time: MAY 2023
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        details:
       - degree: Bachelor of Engineering, Computer Engineering
-        university: MAHARASHTRA INSTITUTE OF TECHNOLOGY | Pune, INDIA
+        university: Maharashtra Institute of Technology
         time: MAY 2017
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        details:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Graduate Student Assistant
+        time: 2023 - Present
+        company: Stevens Institute of Technology, NJ, USA
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Role:
+            - My role involves developing credentials for training the defense acquisition workforce in 
+              the areas of artificial intelligence and data analytics.
+      - role: Application Development Senior Analyst
+        time: JUN 2021 – DEC 2021
+        company: Accenture, India
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Role:
+            - Leading the design, development, and integration of backend technologies with cloud and REST services. 
+            - As the lead senior developer, I was entrusted with being the client's point of contact 
+              throughout the software development lifecycle, including analysis and development.
+      - role: Application Development Analyst
+        time: DEC 2019 – JUN 2021
+        company: Accenture, India
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Role:
+            - I’ve debugged and deployed the fix for a critical bug within 60 minutes, which had nationwide impact. 
+            - I’ve helped containerize monolithic architecture to docker based distributed systems, achieving benefits.
+      - role: Application Development Associate
+        time: OCT 2017 – DEC 2019
+        company: Accenture, India
+        details: |
+          Role:
+            - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
+              like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
 projects:
     title: Projects
     intro: >
@@ -218,4 +196,4 @@ skills:
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
