@@ -1,8 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 body {
 	background: linear-gradient(206deg, #000e71, #000000, #570000);
 	background-size: 600% 600%;
@@ -22,3 +20,5 @@ body {
 		background-position: 87% 0%
 	}
 }
+
+@import "{{ site.theme }}";
