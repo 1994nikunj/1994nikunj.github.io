@@ -9,14 +9,14 @@ sidebar:
     # Profile information
     name: Nikunj Sharma
     tagline: Software Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: 1994nikunj@gmail.com
     phone: (201)-952 3563
     timezone: Eastern Timezone
     citizenship: Indian
-    website: 1994nikunj.github.io #do not add http://
+    website: 1994nikunj.github.io # do not add http://
     linkedin: 1994nikunj
     xing:
     github: 1994nikunj
@@ -56,12 +56,17 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I want to be a part of something meaningful, where organizational success is aligned to individual growth 
+      and achievements is measured in terms of positive outcomes. Furthermore, growth should never be achieved at 
+      the price of environmental. social or personal upheaval.
+             |
+      Technology isn't just a tool, it's an experience, and the thing about experience is that you can 
+      go as far as your imagination takes you.
+      So, now, in industry and in college, this passion remains with me. There's undoubtedly more to learn, 
+      more problems to solve, and yet more to create. And for this, I am quite excited and grateful.
+             |
+      Feel free to contact me; I'm open for conversations, collaborations, programming guidance, 
+      technological support, and others :)
 education:
     title: Education
     info:
@@ -106,38 +111,60 @@ experiences:
             - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
               like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
 projects:
-    title: Projects
+    title: Awards & Achievements
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      My accomplishments until now.
     assignments:
-      - title: Velocity
+      - title: PINNACLE Award - Xtraordinaires Team | Issued by Accenture | Feb 2021
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
+                  experience. Your ONE Team spirit is a fantastic example of how our people should bring their best 
+                  selves to work. Thank you for your commitment"
 
-      - title: DevStudio
+      - title: PINNACLE Award - Game Changer | Issued by Accenture | Jan 2021
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Individuals who constantly learn and leverage new skills to positively impact Client, Company, and 
+                  People. Thank you for being passionate about learning and continuously up-skilling yourself to 
+                  positively impact Accenture, our client, and our communities."
 
-      - title: Tempo
+      - title: TECH STAR | Issued by Accenture | Dec 2020
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "The TechStar Experience is Accenture's Global annual technology award for individuals; it is the most 
+                  prestigious award for Accenture's technology practitioners. This award recognizes the Top 1% of the 
+                  people in Accenture's Technology business."
 
-      - title: Atom
+      - title: APEX Award | Issued by Accenture | Jan 2020
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "You have been awarded the Delivery and Profitability award in the Individual category. This is being 
+                  awarded to you for contributing to successful delivery and higher contract profitability. By winning 
+                  this coveted award, you have set an example among your peers and we are confident that you will 
+                  continue doing so in the coming years."
 
-      - title: Delta
+      - title: Project Award - Client Champ | Issued by Accenture | Jan 2020
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "Nikunj recently joined the Team as an Associate Developer. Proving himself in a brief span by 
+                  single-handedly managing the project development from offshore."
 
+      - title: Client Award - Bug Buster | Issued by Accenture | Apr 2019
+        link: "#"
+        tagline: "This award, along with a trophy, is being rewarded based on defect/code quality during the complete 
+                  system testing phase. These were exclusive client-side awards appreciated and recognition by senior 
+                  leadership."
+
+      - title: ACE Award | Issued by Accenture | Jan 2019
+        link: "#"
+        tagline: "ACE (Accenture Celebrates Excellence) Award celebrates the true spirit of our colleagues who have 
+                  performed 'Greater Than' and applauds people who have consistently delivered results that exceed 
+                  expectations, individually and as teams."
+
+      - title: SPOT Award - Productivity Champ | Issued by Accenture | May 2018
+        link: "#"
+        tagline: "Awarded for showing greater than 40% in subsequent weeks of development stage showcasing productive 
+                  increase and being the outperforming individual within the team during the Project’s life cycle."
 oss:
-    title: OSS Contributions
+    title: Personal Projects
     intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Some of my personal projects which I worked on.
     contributions:
       - title: Tempo
         link: "#"
