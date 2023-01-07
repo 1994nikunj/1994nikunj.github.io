@@ -224,27 +224,26 @@ publications:
 
 activities:
     title: Leadership & Activities
-    intro: ""
-    papers:
+    item:
       - title: Founder/Member, TechGeeks Blog
         link: "#"
         authors: Accenture, India
-        conference: MAY 2020 – DEC 2021
+        timeline: MAY 2020 – DEC 2021
 
       - title: Member/Coordinator
         link: "#"
         authors: Accenture, India
-        conference: OCT 2020 – DEC 2021
+        timeline: OCT 2020 – DEC 2021
 
       - title: Digital Art/Content Creator
         link: "#"
         authors:
-        conference: 2015 – PRESENT
+        timeline: 2015 – PRESENT
 
       - title: Google Developer Student Clubs
         link: "#"
         authors: Stevens Institute of Technology, US
-        conference: SEP 2022 – PRESENT
+        timeline: SEP 2022 – PRESENT
 
 skills:
     title: Skills &amp; Proficiency
