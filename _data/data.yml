@@ -108,54 +108,62 @@ experiences:
         details: |
             - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
               like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
+
 projects:
     title: Awards & Achievements
-    intro: ""
     assignments:
-      - title: PINNACLE Award - Xtraordinaires Team | Issued by Accenture | Feb 2021
-        link: ""
+      - title: PINNACLE Award - Xtraordinaires Team
+        time: Feb 2021
+        company: Issued by Accenture
         tagline: "Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
                   experience. Your ONE Team spirit is a fantastic example of how our people should bring their best 
                   selves to work. Thank you for your commitment"
 
-      - title: PINNACLE Award - Game Changer | Issued by Accenture | Jan 2021
-        link: ""
+      - title: PINNACLE Award - Game Changer
+        time: Jan 2021
+        company: Issued by Accenture
         tagline: "Individuals who constantly learn and leverage new skills to positively impact Client, Company, and 
                   People. Thank you for being passionate about learning and continuously up-skilling yourself to 
                   positively impact Accenture, our client, and our communities."
 
-      - title: TECH STAR | Issued by Accenture | Dec 2020
-        link: ""
+      - title: TECH STAR
+        time: Dec 2020
+        company: Issued by Accenture
         tagline: "The TechStar Experience is Accenture's Global annual technology award for individuals; it is the most 
                   prestigious award for Accenture's technology practitioners. This award recognizes the Top 1% of the 
                   people in Accenture's Technology business."
 
-      - title: APEX Award | Issued by Accenture | Jan 2020
-        link: ""
+      - title: APEX Award
+        time: Jan 2020
+        company: Issued by Accenture
         tagline: "You have been awarded the Delivery and Profitability award in the Individual category. This is being 
                   awarded to you for contributing to successful delivery and higher contract profitability. By winning 
                   this coveted award, you have set an example among your peers and we are confident that you will 
                   continue doing so in the coming years."
 
-      - title: Project Award - Client Champ | Issued by Accenture | Jan 2020
-        link: ""
+      - title: Project Award - Client Champ
+        time: Jan 2020
+        company: Issued by Accenture
         tagline: "Nikunj recently joined the Team as an Associate Developer. Proving himself in a brief span by 
                   single-handedly managing the project development from offshore."
 
-      - title: Client Award - Bug Buster | Issued by Accenture | Apr 2019
-        link: ""
+      - title: Client Award - Bug Buster
+        time: Apr 2019
+        company: Issued by Accenture
         tagline: "This award, along with a trophy, is being rewarded based on defect/code quality during the complete 
                   system testing phase. These were exclusive client-side awards appreciated and recognition by senior 
                   leadership."
 
-      - title: ACE Award | Issued by Accenture | Jan 2019
-        link: ""
+      - title: ACE Award
+        time: Jan 2019
+        company: Issued by Accenture
         tagline: "ACE (Accenture Celebrates Excellence) Award celebrates the true spirit of our colleagues who have 
                   performed 'Greater Than' and applauds people who have consistently delivered results that exceed 
                   expectations, individually and as teams."
 
-      - title: SPOT Award - Productivity Champ | Issued by Accenture | May 2018
-        link: ""
+      - title: SPOT Award - Productivity Champ
+        time: May 2018
+        company: Issued by Accenture
         tagline: "Awarded for showing greater than 40% in subsequent weeks of development stage showcasing productive 
                   increase and being the outperforming individual within the team during the Project’s life cycle."
 oss:
