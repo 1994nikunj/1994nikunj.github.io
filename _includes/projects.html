@@ -11,19 +11,19 @@
         {{ projects.title }}
     </h2>
 
-    {% for project in projects.assignments %}
+    {% for award in projects.assignments %}
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ projects.title }}</h3>
-                <div class="time">{{ projects.time }}</div>
+                <h3 class="job-title">{{ award.title }}</h3>
+                <div class="time">{{ award.time }}</div>
             </div>
-            <div class="company">{{ projects.company }}</div>
+            <div class="company">{{ award.company }}</div>
         </div>
 
-        {% if projects.tagline %}
+        {% if award.tagline %}
         <div class="details">
-            {{ projects.tagline | markdownify }}
+            {{ award.tagline | markdownify }}
         </div>
         {% endif %}
 
