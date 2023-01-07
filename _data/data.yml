@@ -256,7 +256,7 @@ skills:
       - name: Javascript
         level: 80%
 
-      - name: Database (MySQL/MongoDB)
+      - name: MySQL/MongoDB
         level: 80%
 
       - name: JAVA
@@ -265,7 +265,10 @@ skills:
       - name: AWS/REST/UNIX
         level: 70%
 
-      - name: Kafka/Jenkins/Docker/Ansible
+      - name: Kafka/Docker
+        level: 60%
+
+      - name: Jenkins/Ansible
         level: 60%
 
 footer: >
