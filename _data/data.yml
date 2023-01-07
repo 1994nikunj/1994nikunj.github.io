@@ -30,173 +30,182 @@ sidebar:
     pdf:
 
     languages:
-      title: Languages
-      info:
-        - idiom: Hindi
-          level: Native
+        title: Languages
+        info:
+            -   idiom: Hindi
+                level: Native
 
-        - idiom: English
-          level: Professional
+            -   idiom: English
+                level: Professional
 
-        - idiom: Spanish
-          level: Beginner
+            -   idiom: Spanish
+                level: Beginner
 
     interests:
-      title: Interests
-      info:
-        - item: Video Games
-          link:
+        title: Interests
+        info:
+            -   item: Video Games
+                link:
 
-        - item: Motorcycles
-          link:
+            -   item: Motorcycles
+                link:
 
-        - item: Design & Create
-          link:
+            -   item: Design & Create
+                link:
 
 career-profile:
     title: About me
     summary: |
-      I want to be a part of something meaningful, where organizational success is aligned to individual growth 
-      and achievements is measured in terms of positive outcomes. Furthermore, growth should never be achieved at 
-      the price of environmental. social or personal upheaval.
-      
-      Technology isn't just a tool, it's an experience, and the thing about experience is that you can 
-      go as far as your imagination takes you.
-      
-      So, now, in industry and in college, this passion remains with me. There's undoubtedly more to learn, 
-      more problems to solve, and yet more to create. And for this, I am quite excited and grateful.
-      Feel free to contact me; I'm open for conversations, collaborations, programming guidance, 
-      technological support, and others.
+        I want to be a part of something meaningful, where organizational success is aligned to individual growth 
+        and achievements is measured in terms of positive outcomes. Furthermore, growth should never be achieved at 
+        the price of environmental. social or personal upheaval.
+        
+        Technology isn't just a tool, it's an experience, and the thing about experience is that you can 
+        go as far as your imagination takes you.
+        
+        So, now, in industry and in college, this passion remains with me. There's undoubtedly more to learn, 
+        more problems to solve, and yet more to create. And for this, I am quite excited and grateful.
+        Feel free to contact me; I'm open for conversations, collaborations, programming guidance, 
+        technological support, and others.
 
 education:
     title: Education
     info:
-      - degree: Master of Science, Computer Science
-        university: Stevens Institute of Technology
-        time: MAY 2023
-        details:
-      - degree: Bachelor of Engineering, Computer Engineering
-        university: Maharashtra Institute of Technology
-        time: MAY 2017
-        details:
+        -   degree: Master of Science, Computer Science
+            university: Stevens Institute of Technology
+            time: MAY 2023
+            details:
+        -   degree: Bachelor of Engineering, Computer Engineering
+            university: Maharashtra Institute of Technology
+            time: MAY 2017
+            details:
 
 experiences:
     title: Professional Experience
     info:
-      - role: Graduate Student Assistant
-        time: 2023 - Present
-        company: Stevens Institute of Technology, NJ, USA
-        details: |
-            - My role involves developing credentials for training the defense acquisition workforce in 
-              the areas of artificial intelligence and data analytics.
-      - role: Application Development Senior Analyst
-        time: JUN 2021 – DEC 2021
-        company: Accenture, India
-        details: |
-            - Leading the design, development, and integration of backend technologies with cloud and REST services. 
-            - As the lead senior developer, I was entrusted with being the client's point of contact 
-              throughout the software development lifecycle, including analysis and development.
-      - role: Application Development Analyst
-        time: DEC 2019 – JUN 2021
-        company: Accenture, India
-        details: |
-            - I’ve debugged and deployed the fix for a critical bug within 60 minutes, which had nationwide impact. 
-            - I’ve helped containerize monolithic architecture to docker based distributed systems, achieving benefits.
-      - role: Application Development Associate
-        time: OCT 2017 – DEC 2019
-        company: Accenture, India
-        details: |
-            - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
-              like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
+        -   role: Graduate Student Assistant
+            time: JAN 2023 - Present
+            company: Stevens Institute of Technology, NJ, USA
+            details: |
+                - My role involves developing credentials for training the defense acquisition workforce in 
+                  the areas of artificial intelligence and data analytics.
+        -   role: Application Development Senior Analyst
+            time: JUN 2021 – DEC 2021
+            company: Accenture, India
+            details: |
+                - Leading the design, development, and integration of backend technologies with cloud and REST services. 
+                - As the lead senior developer, I was entrusted with being the client's point of contact 
+                  throughout the software development lifecycle, including analysis and development.
+        -   role: Application Development Analyst
+            time: DEC 2019 – JUN 2021
+            company: Accenture, India
+            details: |
+                - I’ve debugged and deployed the fix for a critical bug within 60 minutes, which had nationwide impact. 
+                - I’ve helped containerize monolithic architecture to docker based distributed systems, achieving benefits.
+        -   role: Application Development Associate
+            time: OCT 2017 – DEC 2019
+            company: Accenture, India
+            details: |
+                - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
+                  like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
 
 projects:
     title: Awards & Achievements
     assignments:
-      - title: PINNACLE Award - Xtraordinaires Team
-        time: Feb 2021
-        company: Issued by Accenture
-        tagline: "Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
+        -   title: PINNACLE Award - Xtraordinaires Team
+            time: Feb 2021
+            company: Issued by Accenture
+            tagline: |
+                - Teams that demonstrate positive group behaviors and engagement practices to ensure holistic employee 
                   experience. Your ONE Team spirit is a fantastic example of how our people should bring their best 
-                  selves to work. Thank you for your commitment"
+                  selves to work. Thank you for your commitment.
 
-      - title: PINNACLE Award - Game Changer
-        time: Jan 2021
-        company: Issued by Accenture
-        tagline: "Individuals who constantly learn and leverage new skills to positively impact Client, Company, and 
+        -   title: PINNACLE Award - Game Changer
+            time: Jan 2021
+            company: Issued by Accenture
+            tagline: |
+                - Individuals who constantly learn and leverage new skills to positively impact Client, Company, and 
                   People. Thank you for being passionate about learning and continuously up-skilling yourself to 
-                  positively impact Accenture, our client, and our communities."
+                  positively impact Accenture, our client, and our communities.
 
-      - title: TECH STAR
-        time: Dec 2020
-        company: Issued by Accenture
-        tagline: "The TechStar Experience is Accenture's Global annual technology award for individuals; it is the most 
+        -   title: TECH STAR
+            time: Dec 2020
+            company: Issued by Accenture
+            tagline: |
+                - The TechStar Experience is Accenture's Global annual technology award for individuals; it is the most 
                   prestigious award for Accenture's technology practitioners. This award recognizes the Top 1% of the 
-                  people in Accenture's Technology business."
+                  people in Accenture's Technology business.
 
-      - title: APEX Award
-        time: Jan 2020
-        company: Issued by Accenture
-        tagline: "You have been awarded the Delivery and Profitability award in the Individual category. This is being 
+        -   title: APEX Award
+            time: Jan 2020
+            company: Issued by Accenture
+            tagline: |
+                - You have been awarded the Delivery and Profitability award in the Individual category. This is being 
                   awarded to you for contributing to successful delivery and higher contract profitability. By winning 
                   this coveted award, you have set an example among your peers and we are confident that you will 
-                  continue doing so in the coming years."
+                  continue doing so in the coming years.
 
-      - title: Project Award - Client Champ
-        time: Jan 2020
-        company: Issued by Accenture
-        tagline: "Nikunj recently joined the Team as an Associate Developer. Proving himself in a brief span by 
-                  single-handedly managing the project development from offshore."
+        -   title: Project Award - Client Champ
+            time: Jan 2020
+            company: Issued by Accenture
+            tagline: |
+                - Nikunj recently joined the Team as an Associate Developer. Proving himself in a brief span by 
+                  single-handedly managing the project development from offshore.
 
-      - title: Client Award - Bug Buster
-        time: Apr 2019
-        company: Issued by Accenture
-        tagline: "This award, along with a trophy, is being rewarded based on defect/code quality during the complete 
+        -   title: Client Award - Bug Buster
+            time: Apr 2019
+            company: Issued by Accenture
+            tagline: |
+                - This award, along with a trophy, is being rewarded based on defect/code quality during the complete 
                   system testing phase. These were exclusive client-side awards appreciated and recognition by senior 
-                  leadership."
+                  leadership.
 
-      - title: ACE Award
-        time: Jan 2019
-        company: Issued by Accenture
-        tagline: "ACE (Accenture Celebrates Excellence) Award celebrates the true spirit of our colleagues who have 
+        -   title: ACE Award
+            time: Jan 2019
+            company: Issued by Accenture
+            tagline: |
+                - ACE (Accenture Celebrates Excellence) Award celebrates the true spirit of our colleagues who have 
                   performed 'Greater Than' and applauds people who have consistently delivered results that exceed 
-                  expectations, individually and as teams."
+                  expectations, individually and as teams.
 
-      - title: SPOT Award - Productivity Champ
-        time: May 2018
-        company: Issued by Accenture
-        tagline: "Awarded for showing greater than 40% in subsequent weeks of development stage showcasing productive 
-                  increase and being the outperforming individual within the team during the Project’s life cycle."
+        -   title: SPOT Award - Productivity Champ
+            time: May 2018
+            company: Issued by Accenture
+            tagline: |
+                - Awarded for showing greater than 40% in subsequent weeks of development stage showcasing productive 
+                  increase and being the outperforming individual within the team during the Project’s life cycle.
+
 oss:
     title: Personal Projects
     intro: ""
     contributions:
-      - title: Virtual Machine remote monitoring
-        link: "https://github.com/1994nikunj/virtual-machine-node-analysis"
-        tagline: "A Freelancing project that consisted of a standalone python+bash script for linux environments that 
+        -   title: Virtual Machine remote monitoring
+            link: "https://github.com/1994nikunj/virtual-machine-node-analysis"
+            tagline: "A Freelancing project that consisted of a standalone python+bash script for linux environments that 
                   I created for someone needing it to monitor and get health checks on remote systems."
 
-      - title: COVID Vaccine Slot-Availability Notifier
-        link: "https://github.com/1994nikunj/vaccine-slot-availability"
-        tagline: "A simple Python-based web-scrapper, to check for Vaccine slots availability (scrapping off Official 
+        -   title: COVID Vaccine Slot-Availability Notifier
+            link: "https://github.com/1994nikunj/vaccine-slot-availability"
+            tagline: "A simple Python-based web-scrapper, to check for Vaccine slots availability (scrapping off Official 
                   gov’s COWIN portal) and notify the recipient(s) via email."
 
-      - title: Tabularize - Python library
-        link: "https://github.com/1994nikunj/tabularize"
-        tagline: "Tabularize is a Python library for generating simple tables. It was inspired by the PrettyTable 
+        -   title: Tabularize - Python library
+            link: "https://github.com/1994nikunj/tabularize"
+            tagline: "Tabularize is a Python library for generating simple tables. It was inspired by the PrettyTable 
                   library in python. We can control many aspects of a table, such as the width of the column padding, 
                   the alignment of text, or the table border. It's a trimmed-down version of PrettyTable with even 
                   simpler implementation and lightness in terms of library resources."
 
-      - title: Database visualizer – Web Application
-        link: "https://github.com/1994nikunj/flask_based_web_apps"
-        tagline: "A project that I worked on as part of an innovation contest within Accenture. This project was 
+        -   title: Database visualizer – Web Application
+            link: "https://github.com/1994nikunj/flask_based_web_apps"
+            tagline: "A project that I worked on as part of an innovation contest within Accenture. This project was 
         also presented to our Accenture project clients to help them with their business needs by leveraging its 
         functionality. It is a web application based on python's flask library, consisting of a UI displaying data 
         from multiple realtime streams like sql/mongo-db database, kafka streams, etc."
 
-      - title: Blockchain - Analysis/Monitoring/Prediction Tools & Scripts
-        link: "https://github.com/1994nikunj/my-blockchain"
-        tagline: "In this project, I have tried different technologies and concepts revolving around Blockchain & 
+        -   title: Blockchain - Analysis/Monitoring/Prediction Tools & Scripts
+            link: "https://github.com/1994nikunj/my-blockchain"
+            tagline: "In this project, I have tried different technologies and concepts revolving around Blockchain & 
         Cryptocurrencies. I've tried to understand the underlying code running Bitcoin and Ethereum by forking the 
         actual code, doing analytics on different components like get-live-price price prediction, data analytics on 
         prices & transactions, etc."
@@ -205,78 +214,78 @@ publications:
     title: Certifications & Licenses
     intro: ""
     papers:
-      - title: TechStar DevelopsLeaders
-        link: "#"
-        authors: Accenture
-        conference: Issued Jul 2021
+        -   title: TechStar DevelopsLeaders
+            link: "#"
+            authors: Accenture
+            conference: Issued Jul 2021
 
-      - title: Getting Started with AWS Machine Learning
-        link: "#"
-        authors: Coursera
-        conference: Issued Jun 2021
+        -   title: Getting Started with AWS Machine Learning
+            link: "#"
+            authors: Coursera
+            conference: Issued Jun 2021
 
-      - title: Problem Solving & Python
-        link: "#"
-        authors: HackerRank
-        conference: Issued Sep 2020
+        -   title: Problem Solving & Python
+            link: "#"
+            authors: HackerRank
+            conference: Issued Sep 2020
 
-      - title: Agile Software Development - Scrum
-        link: "#"
-        authors: Skillsoft
-        conference: Issued Apr 2020
+        -   title: Agile Software Development - Scrum
+            link: "#"
+            authors: Skillsoft
+            conference: Issued Apr 2020
 
-      - title: AWS Certified Solutions Architect – Associate
-        link: "#"
-        authors: Amazon Web Services (AWS)
-        conference: Issued May 2021
+        -   title: AWS Certified Solutions Architect – Associate
+            link: "#"
+            authors: Amazon Web Services (AWS)
+            conference: Issued May 2021
 
 activities:
     title: Leadership & Activities
     item:
-      - title: Founder/Member, TechGeeks Blog
-        link: "#"
-        authors: Accenture, India
-        timeline: MAY 2020 – DEC 2021
+        -   title: Founder/Member, TechGeeks Blog
+            link: "#"
+            authors: Accenture, India
+            timeline: MAY 2020 – DEC 2021
 
-      - title: Member/Coordinator
-        link: "#"
-        authors: Accenture, India
-        timeline: OCT 2020 – DEC 2021
+        -   title: Member/Coordinator
+            link: "#"
+            authors: Accenture, India
+            timeline: OCT 2020 – DEC 2021
 
-      - title: Digital Art/Content Creator
-        link: "#"
-        authors:
-        timeline: 2015 – PRESENT
+        -   title: Digital Art/Content Creator
+            link: "#"
+            authors:
+            timeline: 2015 – PRESENT
 
-      - title: Google Developer Student Clubs
-        link: "#"
-        authors: Stevens Institute of Technology, US
-        timeline: SEP 2022 – PRESENT
+        -   title: Google Developer Student Clubs
+            link: "#"
+            authors: Stevens Institute of Technology, US
+            timeline: SEP 2022 – PRESENT
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
-        level: 95%
+        -   name: Python
+            level: 95%
 
-      - name: Javascript
-        level: 80%
+        -   name: Javascript
+            level: 80%
 
-      - name: MySQL/MongoDB
-        level: 80%
+        -   name: MySQL/MongoDB
+            level: 80%
 
-      - name: JAVA
-        level: 80%
+        -   name: JAVA
+            level: 80%
 
-      - name: AWS/REST/UNIX
-        level: 70%
+        -   name: AWS/REST/UNIX
+            level: 70%
 
-      - name: Kafka/Docker
-        level: 60%
+        -   name: Kafka/Docker
+            level: 60%
 
-      - name: Jenkins/Ansible
-        level: 60%
+        -   name: Jenkins/Ansible
+            level: 60%
 
 footer: >
     
