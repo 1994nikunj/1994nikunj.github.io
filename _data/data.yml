@@ -1,9 +1,5 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -13,8 +9,8 @@ sidebar:
 
     # Sidebar links
     email: 1994nikunj@gmail.com
-    phone: (201)-952 3563
-    timezone: Eastern Timezone
+    phone:
+    timezone: Eastern Standard Time
     citizenship:
     website:
     linkedin: 1994nikunj
@@ -177,34 +173,38 @@ projects:
 
 oss:
     title: Personal Projects
-    intro: ""
     contributions:
         -   title: Virtual Machine remote monitoring
-            link: "https://github.com/1994nikunj/virtual-machine-node-analysis"
+            link: https://github.com/1994nikunj/virtual-machine-node-analysis
+            tags: Virtualization | Python | UNIX
             tagline: "A Freelancing project that consisted of a standalone python+bash script for linux environments that 
                   I created for someone needing it to monitor and get health checks on remote systems."
 
         -   title: COVID Vaccine Slot-Availability Notifier
-            link: "https://github.com/1994nikunj/vaccine-slot-availability"
+            link: https://github.com/1994nikunj/vaccine-slot-availability
+            tags:
             tagline: "A simple Python-based web-scrapper, to check for Vaccine slots availability (scrapping off Official 
                   gov’s COWIN portal) and notify the recipient(s) via email."
 
         -   title: Tabularize - Python library
-            link: "https://github.com/1994nikunj/tabularize"
+            link: https://github.com/1994nikunj/tabularize
+            tags:
             tagline: "Tabularize is a Python library for generating simple tables. It was inspired by the PrettyTable 
                   library in python. We can control many aspects of a table, such as the width of the column padding, 
                   the alignment of text, or the table border. It's a trimmed-down version of PrettyTable with even 
                   simpler implementation and lightness in terms of library resources."
 
         -   title: Database visualizer – Web Application
-            link: "https://github.com/1994nikunj/flask_based_web_apps"
+            link: https://github.com/1994nikunj/flask_based_web_apps
+            tags:
             tagline: "A project that I worked on as part of an innovation contest within Accenture. This project was 
         also presented to our Accenture project clients to help them with their business needs by leveraging its 
         functionality. It is a web application based on python's flask library, consisting of a UI displaying data 
         from multiple realtime streams like sql/mongo-db database, kafka streams, etc."
 
         -   title: Blockchain - Analysis/Monitoring/Prediction Tools & Scripts
-            link: "https://github.com/1994nikunj/my-blockchain"
+            link: https://github.com/1994nikunj/my-blockchain
+            tags:
             tagline: "In this project, I have tried different technologies and concepts revolving around Blockchain & 
         Cryptocurrencies. I've tried to understand the underlying code running Bitcoin and Ethereum by forking the 
         actual code, doing analytics on different components like get-live-price price prediction, data analytics on 
@@ -212,53 +212,43 @@ oss:
 
 publications:
     title: Certifications & Licenses
-    intro: ""
     papers:
         -   title: TechStar DevelopsLeaders
-            link: "#"
             authors: Accenture
-            conference: Issued Jul 2021
+            timeline: Issued Jul 2021
 
         -   title: Getting Started with AWS Machine Learning
-            link: "#"
             authors: Coursera
-            conference: Issued Jun 2021
+            timeline: Issued Jun 2021
 
         -   title: Problem Solving & Python
-            link: "#"
             authors: HackerRank
-            conference: Issued Sep 2020
+            timeline: Issued Sep 2020
 
         -   title: Agile Software Development - Scrum
-            link: "#"
             authors: Skillsoft
-            conference: Issued Apr 2020
+            timeline: Issued Apr 2020
 
         -   title: AWS Certified Solutions Architect – Associate
-            link: "#"
             authors: Amazon Web Services (AWS)
-            conference: Issued May 2021
+            timeline: Issued May 2021
 
 activities:
     title: Leadership & Activities
     item:
         -   title: Founder/Member, TechGeeks Blog
-            link: "#"
             authors: Accenture, India
             timeline: MAY 2020 – DEC 2021
 
         -   title: Member/Coordinator
-            link: "#"
             authors: Accenture, India
             timeline: OCT 2020 – DEC 2021
 
         -   title: Digital Art/Content Creator
-            link: "#"
-            authors:
+            authors: Self
             timeline: 2015 – PRESENT
 
         -   title: Google Developer Student Clubs
-            link: "#"
             authors: Stevens Institute of Technology, US
             timeline: SEP 2022 – PRESENT
 

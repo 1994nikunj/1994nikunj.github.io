@@ -18,7 +18,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-compress-site: yes
+compress-site: no
 
 encoding: "UTF-8"
 compress_html: # - http://jch.penibelst.de/
@@ -28,5 +28,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
-safe: false
+host: localhost
+safe: true

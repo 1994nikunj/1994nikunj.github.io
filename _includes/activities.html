@@ -12,15 +12,15 @@
 
     {% for publication in activities.item %}
     <div class="item">
-        {% if publication.link %}
-        <ul>
-            <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
-            {% else %}
-            <li>{{ publication.title }}</li>
-            {% endif %}
-            <div class="publication-authors">{{ publication.authors }}</div>
-            <div class="publication-conference">{{ publication.timeline }}</div>
-        </ul>
+
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{ publication.title }}</h3>
+                <div class="time">{{ publication.timeline }}</div>
+            </div>
+            <div class="company">{{ publication.authors }}</div>
+        </div>
+
     </div>
     {% endfor %}
 
