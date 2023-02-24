@@ -80,29 +80,40 @@ experiences:
     info:
         -   role: Graduate Student Assistant
             time: JAN 2023 - Present
-            company: Stevens Institute of Technology, NJ, USA
+            company: Stevens Institute of Technology, New Jersey, United States
             details: |
                 - My role involves developing credentials for training the defense acquisition workforce in 
                   the areas of artificial intelligence and data analytics.
+                - Also leading design and development of a UI with Python Flask and HTML. The UI allows for input 
+                  file upload and reading, and features text analysis functions including cleaning, statistics, and 
+                  word cloud generation, with the ability to display and save results.
         -   role: Application Development Senior Analyst
             time: JUN 2021 – DEC 2021
-            company: Accenture, India
+            company: Accenture, Pune, India
             details: |
-                - Leading the design, development, and integration of backend technologies with cloud and REST services. 
-                - As the lead senior developer, I was entrusted with being the client's point of contact 
-                  throughout the software development lifecycle, including analysis and development.
+                - Assisted design, development, and seamless integration of backend technologies with cloud and REST 
+                  services for large scale complex systems handling millions of requests. 
+                - Served as the primary point of contact for the client operation, supporting all aspects of the 
+                  software development lifecycle, including planning, debugging, deploying, as well mentoring and 
+                  coaching teams.
         -   role: Application Development Analyst
             time: DEC 2019 – JUN 2021
-            company: Accenture, India
+            company: Accenture, Pune, India
             details: |
-                - I’ve debugged and deployed the fix for a critical bug within 60 minutes, which had nationwide impact. 
-                - I’ve helped containerize monolithic architecture to docker based distributed systems, achieving benefits.
+                - Expertly deployed multiple hotfixes for critical projects, resulting in significant time and cost 
+                  savings, and preventing delays and downtime. 
+                - Transformed monolithic architecture to a Docker-based distributed system, delivering over 50% 
+                  improvement in system efficiency and reducing downtime by over 80%.
+                - Revamped an outdated codebase and upgraded from Python 2.7 to 3.8, leading to significant improvements 
+                  that included reducing boilerplate by 70%, enhancing security, decreasing resource utilization by 40%, 
+                  and boosting performance by 20%.
         -   role: Application Development Associate
             time: OCT 2017 – DEC 2019
-            company: Accenture, India
+            company: Accenture, Pune, India
             details: |
-                - Worked on Business Intelligence dashboards, visualizing data from multiple streams 
-                  like SQL, MongoDB, REST API’s responses, etc., resulting in defect-triage time reduction by over 50%.
+                - Migrated legacy Perl codebase to Python, converted 15+ REST APIs based on SNMP with 0 bugs.
+                - Built business intelligence dashboards that visualized data from multiple streams like SQL, MongoDB, 
+                  and REST API responses, resulting in a roughly 50% reduction in defect triage and testing times.
 
 projects:
     title: Awards & Achievements
@@ -218,9 +229,15 @@ oss:
         -   title: NLP Analysis Toolkit
             link: https://github.com/1994nikunj/NLP_WordExtraction
             tags: NLP | ML | Data-Analytics | Python | WordCloud | Text-Analysis
-            tagline: "This project is a collection of NLP analyses, including text cleaning, most common words, n-grams 
+            tagline: "The code is a collection of NLP analyses, including text cleaning, most common words, n-grams 
                       generation, co-occurrence matrix generation, wordcloud generation, topic modeling (using Latent 
-                      Dirichlet Allocation), and general text statistics."
+                      Dirichlet Allocation), and general text statistics. Analysis and operations being performed:
+                      - Text cleaning
+                      - Generation of n-grams
+                      - Word frequency analysis
+                      - Wordcloud visualization
+                      - Topic modeling
+                      - General text statistics"
 
         -   title: Ocean Odyssey - Unreal Engine PC Game
             link: https://github.com/1994nikunj/Ocean-Odyssey
