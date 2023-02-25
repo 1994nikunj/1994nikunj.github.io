@@ -218,18 +218,18 @@ oss:
                       of a UI displaying data from multiple realtime streams like sql/mongo-db database, kafka streams, 
                       etc."
 
-        -   title: Blockchain - Analysis/Monitoring/Prediction Tools & Scripts
-            link: https://github.com/1994nikunj/my-blockchain
+        -   title: BLocks On Chain - Basic Blockchain Implementation in Python
+            link: https://github.com/1994nikunj/blocks-on-chain
             tags:
-            tagline: "In this project, I have tried different technologies and concepts revolving around Blockchain & 
-                      Cryptocurrencies. I've tried to understand the underlying code running Bitcoin and Ethereum by 
-                      forking the actual code, doing analytics on different components like get-live-price price 
-                      prediction, data analytics on prices & transactions, etc."
+            tagline: "A basic implementation of a blockchain in Python. The blockchain includes blocks that consist of 
+                      a list of transactions and a nonce, and the chain is secured through the use of a SHA-256 hash 
+                      function and proof-of-work."
 
-        -   title: NLP Analysis Toolkit
-            link: https://github.com/1994nikunj/NLP_WordExtraction
+        -   title: NLP Toolkit
+            link: https://github.com/1994nikunj/nlp-tools
             tags: NLP | ML | Data-Analytics | Python | WordCloud | Text-Analysis
-            tagline: "The code is a collection of NLP analyses, including text cleaning, most common words, n-grams 
+            tagline: |
+                - The code is a collection of NLP analyses, including text cleaning, most common words, n-grams 
                       generation, co-occurrence matrix generation, wordcloud generation, topic modeling (using Latent 
                       Dirichlet Allocation), and general text statistics. Analysis and operations being performed:
                       - Text cleaning
@@ -237,7 +237,7 @@ oss:
                       - Word frequency analysis
                       - Wordcloud visualization
                       - Topic modeling
-                      - General text statistics"
+                      - General text statistics
 
         -   title: Ocean Odyssey - Unreal Engine PC Game
             link: https://github.com/1994nikunj/Ocean-Odyssey
@@ -245,6 +245,17 @@ oss:
             tagline: "An Unreal Engine based Computer game designed & developed by team of four as part of college 
                       assignment for course 'CS-555: Agile Methods for Software Development' with the motive of reducing 
                       stress at workplace."
+
+        -   title: OpenGlass - Showcase yourself through your work
+            link: https://github.com/1994nikunj/openglass-web-app
+            tags: JavaScript | React | Node.JS | MongoDB | UI/UX
+            tagline: "OpenGlass is a web application that provides a platform for developers to showcase their work and 
+                      receive feedback from others. With features such as search and filtering of projects based on 
+                      technology, authenticated users can add, edit, and delete their projects as well as like, comment, 
+                      and save/bookmark other projects. Additionally, users can turn their profile page into a portfolio 
+                      website and post project ideas for contributors to explore. The app also features a hiring 
+                      section, which shows users available for hire and allows filtering based on skills & availability.
+                      Lastly, OpenGlass allows media upload to S3 and stores its endpoint in the database."
 
 publications:
     title: Certifications & Licenses
