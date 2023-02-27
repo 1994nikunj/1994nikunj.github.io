@@ -187,7 +187,7 @@ oss:
         -   title: Virtual Machine Core Utilization Monitoring
             link: https://github.com/1994nikunj/virtual-machine-node-analysis
             tags: Virtualization | Python | UNIX | SSH | Monitoring | Paramiko | Data-Visualization
-            tagline: "Created this custom solution as a freelancing project, It optimizes the monitoring and health checks
+            tagline: "> Created this custom solution as a freelancing project, It optimizes the monitoring and health checks
                       of remote systems in a Linux environment. By combining the power of the python and bash scripting 
                       languages with the paramiko and prettytable libraries, this script establishes an SSH connection 
                       to gather in-depth information about the virtual machine instances on a host. This includes 
@@ -198,7 +198,7 @@ oss:
         -   title: COVID Vaccine Slot-Availability Notifier
             link: https://github.com/1994nikunj/vaccine-slot-availability
             tags: Python | Web-Scrapping | Data-Extraction | Task-Scheduler | Selenium | Mailing-Service | JSON-Parsing
-            tagline: "The code implements a web scrapper using the Selenium and BeautifulSoup libraries. The scrapper 
+            tagline: "> The code implements a web scrapper using the Selenium and BeautifulSoup libraries. The scrapper 
                       is designed to extract data from a specific URL (specified in the settings module) that provides 
                       information on vaccination centers. The scrapper class Scrapper takes two parameters - state and 
                       district, both of which are used to filter the results. On successfully finding the required 
@@ -207,7 +207,7 @@ oss:
         -   title: Tabularize - Python library
             link: https://github.com/1994nikunj/tabularize
             tags: Python | Data-Visualization | Data-Tables
-            tagline: "Tabularize is a Python library for generating simple tables. It was inspired by the PrettyTable 
+            tagline: "> Tabularize is a Python library for generating simple tables. It was inspired by the PrettyTable 
                       library in python. We can control many aspects of a table, such as the width of the column padding
                       , the alignment of text, or the table border. It's a trimmed-down version of PrettyTable with even 
                       simpler implementation and lightness in terms of library resources."
@@ -215,7 +215,7 @@ oss:
         -   title: Database visualizer – Web Application
             link: https://github.com/1994nikunj/flask_based_web_apps
             tags: Python | Flask | Django | MongoDB | SQLite | JavaScript | CSS
-            tagline: "A project that I worked on as part of an innovation contest within Accenture. This project was 
+            tagline: "> A project that I worked on as part of an innovation contest within Accenture. This project was 
                       also presented to our Accenture project clients to help them with their business needs by 
                       leveraging its functionality. It is a web application based on python's flask library, consisting 
                       of a UI displaying data from multiple realtime streams like sql/mongo-db database, kafka streams, 
@@ -223,15 +223,15 @@ oss:
 
         -   title: Blocks On Chain - Basic Blockchain Implementation in Python
             link: https://github.com/1994nikunj/blocks-on-chain
-            tags:
-            tagline: "A basic implementation of a blockchain in Python. The blockchain includes blocks that consist of 
+            tags: Python | BlockChain | SHA-256
+            tagline: "> A basic implementation of a blockchain in Python. The blockchain includes blocks that consist of 
                       a list of transactions and a nonce, and the chain is secured through the use of a SHA-256 hash 
                       function and proof-of-work."
 
         -   title: NLP Toolkit
             link: https://github.com/1994nikunj/nlp-tools
             tags: NLP | ML | Data-Analytics | Python | WordCloud | Text-Analysis
-            tagline: "The code is a collection of NLP analyses, including text cleaning, most common words, n-grams 
+            tagline: "> The code is a collection of NLP analyses, including text cleaning, most common words, n-grams 
                       generation, co-occurrence matrix generation, wordcloud generation, topic modeling (using Latent 
                       Dirichlet Allocation), and general text statistics. A few analysis and operations being performed
                       are: Text cleaning, N-grams Generation, Word frequency analysis, Wordcloud visualization and 
@@ -240,7 +240,7 @@ oss:
         -   title: Ocean Odyssey - Unreal Engine PC Game
             link: https://github.com/1994nikunj/Ocean-Odyssey
             tags: Unreal Engine | Academic Team Project
-            tagline: "An Unreal Engine based Computer game designed & developed by team of four as part of college 
+            tagline: "> An Unreal Engine based Computer game designed & developed by team of four as part of college 
                       assignment for course 'CS-555: Agile Methods for Software Development' with the motive of reducing 
                       stress at workplace. A few of the features include: Fluid, graceful and exhilarating physics-
                       based gameplay, Procedural Generated environment, Fully dynamic lighting and Weather effects, 
@@ -249,7 +249,7 @@ oss:
         -   title: OpenGlass - Showcase yourself through your work
             link: https://github.com/1994nikunj/openglass-web-app
             tags: JavaScript | React | Node.JS | MongoDB | UI/UX
-            tagline: "OpenGlass is a web application that provides a platform for developers to showcase their work and 
+            tagline: "> OpenGlass is a web application that provides a platform for developers to showcase their work and 
                       receive feedback from others. With features such as search and filtering of projects based on 
                       technology, authenticated users can add, edit, and delete their projects as well as like, comment, 
                       and save/bookmark other projects. Additionally, users can turn their profile page into a portfolio 
