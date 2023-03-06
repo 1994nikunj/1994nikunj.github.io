@@ -11,7 +11,7 @@ sidebar:
     email: 1994nikunj@gmail.com
     phone:
     timezone: Eastern Standard Time
-    citizenship:
+    citizenship: Indian
     website:
     linkedin: 1994nikunj
     xing:
@@ -239,7 +239,7 @@ oss:
 
         -   title: Ocean Odyssey - Unreal Engine PC Game
             link: https://github.com/1994nikunj/Ocean-Odyssey
-            tags: Unreal Engine | Academic Team Project
+            tags: Unreal Engine | Blender | Photoshop | Academic Team Project
             tagline: "> An Unreal Engine based Computer game designed & developed by team of four as part of college 
                       assignment for course 'CS-555: Agile Methods for Software Development' with the motive of reducing 
                       stress at workplace. A few of the features include: Fluid, graceful and exhilarating physics-
@@ -248,7 +248,7 @@ oss:
 
         -   title: OpenGlass - Showcase yourself through your work
             link: https://github.com/1994nikunj/openglass-web-app
-            tags: JavaScript | React | Node.JS | MongoDB | UI/UX
+            tags: JavaScript | React | Node | MongoDB | UI/UX | AWS | JWT
             tagline: "> OpenGlass is a web application that provides a platform for developers to showcase their work and 
                       receive feedback from others. With features such as search and filtering of projects based on 
                       technology, authenticated users can add, edit, and delete their projects as well as like, comment, 
@@ -256,6 +256,15 @@ oss:
                       website and post project ideas for contributors to explore. The app also features a hiring 
                       section, which shows users available for hire and allows filtering based on skills & availability.
                       Lastly, OpenGlass allows media upload to S3 and stores its endpoint in the database."
+
+        -   title: Textify PDF - PDF to Text
+            link: https://github.com/1994nikunj/textify-pdf
+            tags: Python | UI/UX | Text-extraction | Tkinter
+            tagline: "> This project is a PDF text extractor that uses Python and various libraries to extract text 
+                        from all PDF files in a specified folder path. The extracted text is saved as separate text 
+                        files, and optionally zipped. The program has a user-friendly GUI made with tkinter. The 
+                        project is an excellent tool for anyone who frequently deals with large amounts of PDF 
+                        documents and needs an efficient way to extract text from them."
 
 publications:
     title: Certifications & Licenses
@@ -273,7 +282,7 @@ publications:
             timeline: Issued Sep 2020
 
         -   title: Agile Software Development - Scrum
-            authors: Skillsoft
+            authors: Skillsoft Percipio
             timeline: Issued Apr 2020
 
         -   title: AWS Certified Solutions Architect – Associate
@@ -304,25 +313,8 @@ skills:
 
     toolset:
         -   name: Python
-            level: 95%
-
         -   name: Javascript
-            level: 80%
-
         -   name: MySQL/MongoDB
-            level: 80%
-
-        -   name: JAVA
-            level: 80%
-
-        -   name: AWS/REST/UNIX
-            level: 70%
-
-        -   name: Kafka/Docker
-            level: 60%
-
-        -   name: Jenkins/Ansible
-            level: 60%
 
 footer: >
     
