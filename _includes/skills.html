@@ -16,14 +16,9 @@
             <div class="upper-row">
                 <h3 class="job-title">{{ skill.header }}</h3>
             </div>
+			<div class="company">{{ skill.entry }}</div>
         </div>
-
-		<ul class="meta">
-			<li>{{ skill.entry | replace: ' | ', '</li>
-			<li>' }}</li>
-		</ul>
 	</div>
-	<br>
 	{% endfor %}
 
 </section>
