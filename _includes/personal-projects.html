@@ -1,17 +1,17 @@
 <!--//PERSONAL PROJECTS-->
 
-{% assign oss = site.data.data.oss %}
-{% if oss %}
-<section class="section oss-section" xmlns="http://www.w3.org/1999/html">
+{% assign personal-projects = site.data.data.personal-projects %}
+{% if personal-projects %}
+<section class="section oss-section">
     <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-code fa-stack-1x fa-inverse"></i>
     </span>
-        {{ oss.title }}
+        {{ personal-projects.title }}
     </h2>
 
-    {% for project in oss.contributions %}
+    {% for project in personal-projects.contributions %}
     <div class="item">
 
         <div class="meta">

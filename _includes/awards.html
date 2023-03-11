@@ -1,17 +1,17 @@
 <!--//AWARDS & ACHIEVEMENTS-->
 
-{% assign projects = site.data.data.projects %}
-{% if projects %}
+{% assign awards = site.data.data.awards %}
+{% if awards %}
 <section class="section experiences-section">
     <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
     </span>
-        {{ projects.title }}
+        {{ awards.title }}
     </h2>
 
-    {% for award in projects.assignments %}
+    {% for award in awards.awards %}
     <div class="item">
 
         <div class="meta">

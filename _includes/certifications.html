@@ -1,17 +1,17 @@
 <!--//CERTIFICATIONS & LICENSES-->
 
-{% assign publications = site.data.data.publications %}
-{% if publications %}
+{% assign certifications = site.data.data.certifications %}
+{% if certifications %}
 <section class="section publications-section">
     <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
     </span>
-        {{ publications.title }}
+        {{ certifications.title }}
     </h2>
 
-    {% for certificate in publications.papers %}
+    {% for certificate in certifications.papers %}
     <div class="item">
 
         <div class="meta">

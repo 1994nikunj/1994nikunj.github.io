@@ -102,7 +102,7 @@ experiences:
                 - Built business intelligence dashboards that visualized data from multiple streams like SQL, MongoDB, 
                   and REST API responses, resulting in a roughly 50% reduction in defect triage and testing times.
 
-projects:
+awards:
     title: Awards & Achievements
     assignments:
         -   title: PINNACLE Award - Xtraordinaires Team
@@ -168,7 +168,7 @@ projects:
                 - Awarded for showing greater than 40% in subsequent weeks of development stage showcasing productive 
                   increase and being the outperforming individual within the team during the Project’s life cycle.
 
-oss:
+personal-projects:
     title: Personal Projects
     contributions:
         -   title: Virtual Machine Core Utilization Monitoring
@@ -253,7 +253,7 @@ oss:
                       excellent tool for anyone who frequently deals with large amounts of PDF documents and needs an 
                       efficient way to extract text from them."
 
-publications:
+certifications:
     title: Certifications & Licenses
     papers:
         -   title: TechStar DevelopsLeaders
