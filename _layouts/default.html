@@ -3,6 +3,11 @@
 <!--[if IE 9]><html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--><html lang="en"> <!--<![endif]-->
 {% include head.html %}
+<head>
+	{% if jekyll.environment == 'production' %}
+	{% include google-analytics.html %}
+	{% endif %}
+</head>
 
 <body>
 <div class="wrapper">
