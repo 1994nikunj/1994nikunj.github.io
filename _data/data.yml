@@ -299,19 +299,19 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-        -   name: Python
-            level: 95%
-        -   name: Javascript
-            level: 80%
-        -   name: MySQL/MongoDB
-            level: 80%
-        -   name: JAVA
-            level: 80%
-        -   name: AWS/REST/UNIX
-            level: 70%
-        -   name: Kafka/Docker
-            level: 60%
-        -   name: Jenkins/Ansible
-            level: 60%
+        -   header: Programming Languages
+            entry: Python, R, Java, C++, JavaScript, HTML, CSS
+
+        -   header: Technologies
+            entry: REST APIs, AWS, Flask/Django frameworks, Node.js, React, GraphQL
+
+        -   header: Tools
+            entry: MongoDB, SQL/NoSQL, PostgreSQL
+
+        -   header: Operating Systems
+            entry: Git | Jenkins | Docker | Kubernetes | AWS | New Relic | ChatGPT
+
+        -   header: Databases
+            entry: Windows, Linux, UNIX, Android
 
 footer: >
