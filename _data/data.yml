@@ -311,7 +311,7 @@ skills:
         -   header: Cloud Technologies
             entry: AWS | Docker | Kubernetes | New Relic
 
-        -   header: DevOps
+        -   header: DevOps (CI/CD)
             entry: Git | Jenkins | GitLab | Ansible | AWS CloudFormation
 
         -   header: Operating Systems
