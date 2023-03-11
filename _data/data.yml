@@ -9,20 +9,11 @@ sidebar:
 
     # Sidebar links
     email: 1994nikunj@gmail.com
-    phone:
     timezone: Eastern Standard Time
     citizenship: Indian
-    website:
+    website: https://1994nikunj.github.io/
     linkedin: 1994nikunj
-    xing:
     github: 1994nikunj
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow:
-    codewars:
-    goodreads:
     pdf:
 
     languages:
@@ -40,14 +31,10 @@ sidebar:
     interests:
         title: Interests
         info:
-            -   item: Video Games
-                link:
-
-            -   item: Motorcycles
-                link:
-
-            -   item: Design & Create
-                link:
+            -   item: Computer Games
+            -   item: Motorbikes
+            -   item: Designing
+            -   item: Organizing
 
 career-profile:
     title: About me
@@ -313,8 +300,19 @@ skills:
 
     toolset:
         -   name: Python
+            level: 95%
         -   name: Javascript
+            level: 80%
         -   name: MySQL/MongoDB
+            level: 80%
+        -   name: JAVA
+            level: 80%
+        -   name: AWS/REST/UNIX
+            level: 70%
+        -   name: Kafka/Docker
+            level: 60%
+        -   name: Jenkins/Ansible
+            level: 60%
 
 footer: >
     
