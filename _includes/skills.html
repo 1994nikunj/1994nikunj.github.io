@@ -14,13 +14,12 @@
 		{% for skill in skills.toolset %}
 		<div class="item">
 			<h3 class="level-title">{{ skill.header }}</h3>
+			<ul class="meta">
+				<li>{{ skill.entry | replace: ' | ', '</li>
+				<li>' }}</li>
+			</ul>
 		</div>
-
-		<ul class="meta">
-			<li>{{ skill.entry | replace: ' | ', '</li><li>' }}</li>
-		</ul>
-
-
+		<br>
 		{% endfor %}
 	</div>
 
