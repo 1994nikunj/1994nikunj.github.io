@@ -6,14 +6,16 @@ permalink: /print
 {% include career-profile.html %}
 
 {% unless site.data.data.sidebar.education %}
-  {% include education.html %}
+{% include education.html %}
 {% endunless %}
 
 {% include experiences.html %}
 
-{% include projects.html %}
+{% include awards.html %}
 
-{% include publications.html %}
+{% include personal-projects.html %}
+
+{% include certifications.html %}
 
 {% include activities.html %}
 
