@@ -12,16 +12,18 @@
 
 	<div class="skillset">
 		{% for skill in skills.toolset %}
+
 		<div class="item">
-			<h3 class="level-title">{{ skill.name }}</h3>
+			<span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+            </span>
+			<h3 class="level-title">{{ skill.header }}</h3>
 		</div>
 
-		<div class="meta">
-			<div class="upper-row">
-				<h3 class="job-title">{{ skill.header }}</h3>
-			</div>
-			<div class="company">{{ skill.entry }}</div>
-		</div>
+		<ul class="meta">
+			<li>{{ skill.entry | replace: ' | ', '</li><li>' }}</li>
+		</ul>
 
 		{% endfor %}
 	</div>
