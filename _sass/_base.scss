@@ -298,3 +298,17 @@ p {
     background: lighten($theme-color, 15%);
   }
 }
+
+.project-image {
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.project-image img {
+  object-fit: contain;
+  max-height: 50%;
+  max-width: 50%;
+}
