@@ -1,12 +1,12 @@
 /* ======= Base ======= */
 body {
-  font-family: "Roboto", sans-serif;
-  color: $text-color-secondary;
-  background: $base;
-  font-size: 14px;
-  padding: 30px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: "Roboto", sans-serif;
+	color: $text-color-secondary;
+	background: $base;
+	font-size: 14px;
+	padding: 30px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -15,300 +15,310 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 a {
-  color: $theme-color;
+	color: $theme-color;
 
-  &:hover {
-    text-decoration: none;
-    color: lighten($theme-color, 30%);
-  }
+	&:hover {
+		text-decoration: none;
+		color: lighten($theme-color, 30%);
+	}
 
-  &:focus {
-    text-decoration: none;
-  }
+	&:focus {
+		text-decoration: none;
+	}
 }
 
 p {
-  line-height: 1.5;
+	line-height: 1.5;
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  background: $theme-color;
-  max-width: 1000px;
-  margin: 0 auto;
-  position: relative;
-  @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
+	display: grid;
+	border-radius: 20px;
+	grid-template-columns: repeat(10, 1fr);
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
 }
 
 .sidebar-wrapper {
-  grid-column: span 3;
-  order: 2;
-  background: $theme-color;
-  color: $text-color;
+	border-radius: 20px;
+	grid-column: span 3;
+	order: 2;
+	background: $base;
+	color: $text-color;
 
-  a {
-    color: $text-color;
-  }
+	a {
+		color: $text-color;
+	}
 
-  .profile-container {
-    padding: 30px;
-    background: darken($theme-color, 10%);
-    text-align: center;
-    color: $text-color;
-  }
+	.profile-container {
+		border-radius: 20px;
+		padding: 30px;
+		background: darken($theme-color, 10%);
+		text-align: center;
+		color: $text-color;
+		box-shadow: 0 5px 10px darken($theme-color, 40%);
+		transform: 0.5s ease-in-out;
+	}
 
-  .name {
-    font-size: 32px;
-    font-weight: 900;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
+	.profile-container:hover {
+		background: darken($theme-color, 12%);
+		box-shadow: 0 5px 20px darken($theme-color, 40%);
+	}
 
-  .tagline {
-    color: rgba(256, 256, 256, 0.6);
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+	.name {
+		font-size: 35px;
+		font-weight: 900;
+		margin-bottom: 10px;
+	}
 
-  .profile {
-    margin-bottom: 15px;
-  }
+	.tagline {
+		color: rgba(256, 256, 256, 0.6);
+		font-size: 16px;
+		font-weight: 400;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 
-  .avatar {
-    //used for profile image
-    max-width: 100px;
-    margin-bottom: 15px;
-    border-radius: 100%;
-    box-shadow: 0 5px 10px darken($theme-color, 40%);
-  }
+	.profile {
+		margin-bottom: 15px;
+	}
 
-  .contact-list {
+	//used for profile image
+	.avatar {
+		width: 200px;
+		margin-bottom: 15px;
+		border-radius: 20px;
+		box-shadow: 0 5px 10px darken($theme-color, 40%);
+	}
 
-    .fas,
-    .fab,
-    .far {
-      margin-right: 5px;
-      font-size: 18px;
-      vertical-align: middle;
-    }
+	.contact-list {
 
-    li {
-      margin-bottom: 15px;
+		.fas,
+		.fab,
+		.far {
+			margin-right: 5px;
+			font-size: 18px;
+			vertical-align: middle;
+		}
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
+		li {
+			margin-bottom: 15px;
 
-  .container-block {
-    padding: 30px;
-  }
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
 
-  .container-block-title {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
+	.container-block {
+		padding: 30px;
+	}
 
-  .degree {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5px;
-  }
+	.container-block-title {
+		text-transform: uppercase;
+		font-size: 16px;
+		font-weight: 700;
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
 
-  .education-container {
-    .item {
-      margin-bottom: 15px;
+	.degree {
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
+	.education-container {
+		.item {
+			margin-bottom: 15px;
 
-    .meta {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-      margin-top: 0;
-    }
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
 
-    .time {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-    }
-  }
+		.meta {
+			color: rgba(256, 256, 256, 0.6);
+			font-weight: 500;
+			margin-bottom: 0px;
+			margin-top: 0;
+		}
 
-  .languages-container {
-    .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
-    }
-  }
+		.time {
+			color: rgba(256, 256, 256, 0.6);
+			font-weight: 500;
+			margin-bottom: 0px;
+		}
+	}
 
-  .languages-list {
-    margin-bottom: 0;
+	.languages-container {
+		.lang-desc {
+			color: rgba(256, 256, 256, 0.6);
+		}
+	}
 
-    li {
-      margin-bottom: 10px;
+	.languages-list {
+		margin-bottom: 0;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
+		li {
+			margin-bottom: 10px;
 
-  .interests-list {
-    margin-bottom: 0;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
 
-    li {
-      margin-bottom: 10px;
+	.interests-list {
+		margin-bottom: 0;
 
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
+		li {
+			margin-bottom: 10px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
 }
 
 .main-wrapper {
-  grid-column: span 7;
-  background: $front;
-  padding: 60px;
+	border-radius: 20px;
+	box-shadow: 0 5px 10px darken($theme-color, 40%);
+	grid-column: span 7;
+	background: $front;
+	margin-right: 15px;
+	padding: 30px;
 
-  .section-title {
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 500;
-    color: lighten($theme-color, 25%);
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
+	.section-title {
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: 500;
+		color: lighten($theme-color, 25%);
+		position: relative;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
 
-  .section {
-    margin-bottom: 60px;
-  }
+	.section {
+		margin-bottom: 60px;
+	}
 
-  .experiences-section,
-  .educations-section {
-    .item {
-      margin-bottom: 30px;
-    }
-  }
+	.experiences-section,
+	.educations-section {
+		.item {
+			margin-bottom: 30px;
+		}
+	}
 
-  .upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
-  }
+	.upper-row {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 2px;
+	}
 
-  .job-title,
-  .degree {
-    color: $text-color;
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 500;
-  }
+	.job-title,
+	.degree {
+		color: $text-color;
+		font-size: 16px;
+		margin-top: 0;
+		margin-bottom: 0;
+		font-weight: 500;
+	}
 
-  .time {
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: $text-grey;
-  }
+	.time {
+		position: absolute;
+		right: 0;
+		top: 0;
+		color: $text-grey;
+	}
 
-  .company,
-  .university {
-    margin-bottom: 10px;
-    color: $text-grey;
-  }
+	.company,
+	.university {
+		margin-bottom: 10px;
+		color: $text-grey;
+	}
 
-  .project-title {
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 5px;
-    color: $text-color;
-  }
+	.project-title {
+		font-size: 16px;
+		font-weight: 400;
+		margin-top: 0;
+		margin-bottom: 5px;
+		color: $text-color;
+	}
 
-  .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
+	.projects-section {
+		.intro {
+			margin-bottom: 30px;
+		}
 
-    .item {
-      margin-bottom: 15px;
-    }
-  }
+		.item {
+			margin-bottom: 15px;
+		}
+	}
 
-  .publication-title {
-    font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
-    margin-bottom: 1px;
-  }
+	.publication-title {
+		font-size: 16px;
+		font-weight: 400;
+		color: $text-color;
+		margin-bottom: 1px;
+	}
 
-  .publication-authors {
-    font-style: italic;
-    color: $text-grey;
-    margin-bottom: 1px;
-  }
+	.publication-authors {
+		font-style: italic;
+		color: $text-grey;
+		margin-bottom: 1px;
+	}
 
-  .publications-section {
-    .intro {
-      margin-bottom: 30px;
-    }
+	.publications-section {
+		.intro {
+			margin-bottom: 30px;
+		}
 
-    .item {
-      margin-bottom: 15px;
-    }
-  }
+		.item {
+			margin-bottom: 15px;
+		}
+	}
 }
 
 .skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
+	.item {
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
 
-  .level-title {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
+	.level-title {
+		font-size: 14px;
+		margin-top: 0;
+		margin-bottom: 12px;
+	}
 
-  .level-bar {
-    height: 12px;
-    background: $base;
-  }
+	.level-bar {
+		height: 12px;
+		background: $base;
+	}
 
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
+	.level-bar-inner {
+		height: 12px;
+		background: lighten($theme-color, 15%);
+	}
 }
 
 .project-image {
-  max-height: 200px;
-  overflow: hidden;
-  display: flex;
-  justify-content: left;
-  align-items: left;
+	max-height: 200px;
+	overflow: hidden;
+	display: flex;
+	justify-content: left;
+	align-items: left;
 }
 
 .project-image img {
-  object-fit: contain;
-  max-height: 50%;
-  max-width: 50%;
+	object-fit: contain;
+	max-height: 50%;
+	max-width: 50%;
 }
