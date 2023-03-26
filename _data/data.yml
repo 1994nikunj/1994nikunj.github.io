@@ -306,7 +306,7 @@ skills:
 
     toolset:
         -   header: Programming Languages
-            entry: Python | R | Java | C++ | JavaScript
+            entry: Python | R | Java | C++ | JavaScript | Bash
 
         -   header: Web Development
             entry: REST API | Node.js | React | GraphQL | Web frameworks (Express.js, Flask, Django) | HTML | CSS
@@ -321,12 +321,15 @@ skills:
             entry: Git | Jenkins | GitLab | Ansible | AWS CloudFormation
 
         -   header: Operating Systems
-            entry: Windows | Linux | Unix | Android | iOS
+            entry: Windows | Linux | Unix | Android | MacOS
 
         -   header: Cybersecurity
             entry: Splunk | Firewalls
 
         -   header: Big Data
             entry: Apache Kafka | Amazon Redshift
+
+        -   header: Tools
+            entry: ChatGPT | Jira | Slack | Postman | Adobe Photoshop | Unreal Engine
 
 footer: >
