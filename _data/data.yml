@@ -69,38 +69,42 @@ experiences:
             time: JAN 2023 - Present
             company: Stevens Institute of Technology, New Jersey, United States
             details: |
-                - My role involves developing credentials for training the defense acquisition workforce in 
-                  the areas of artificial intelligence and data analytics.
-                - Also leading design and development of a UI with Python Flask and HTML. The UI allows for input 
-                  file upload and reading, and features text analysis functions including cleaning, statistics, and 
-                  word cloud generation, with the ability to display and save results.
+                - Designed and implemented a cutting-edge web app utilizing Flask, incorporating NLP expertise to 
+                  achieve a 40% reduction in processing time, a 25% increase in data analysis efficiency, and a 
+                  remarkable 75% cost savings, all while prioritizing code reusability and maintainability.
+                - Reduced manual efforts by implementing Python-based web scrapers and Selenium automations for data 
+                  mining, resulting in an 85% increase in data collection efficiency and a 75% reduction in errors.
+
         -   role: Application Development Senior Analyst
             time: JUN 2021 – DEC 2021
             company: Accenture, Pune, India
             details: |
                 - Assisted design, development, and seamless integration of backend technologies with cloud and REST 
-                  services for large scale complex systems handling millions of requests. 
-                - Served as the primary point of contact for the client operation, supporting all aspects of the 
-                  software development lifecycle, including planning, debugging, deploying, as well mentoring and 
-                  coaching teams.
+                  services for highly scalable fault-tolerant distributed enterprise systems handling millions of 
+                  requests.
+                - Served as the primary point of contact for clients, supporting all aspects of the Agile-based software
+                  development lifecycle and mentoring fellow developers in code reviews and best practices, resulting 
+                  in a 20% improvement in code quality and delivery times.
+
         -   role: Application Development Analyst
             time: DEC 2019 – JUN 2021
             company: Accenture, Pune, India
             details: |
-                - Expertly deployed multiple hotfixes for critical projects, resulting in significant time and cost 
-                  savings, and preventing delays and downtime. 
+                - Expertly triaged multiple hotfixes and uncovering hidden problems for critical projects, resulting in 
+                  significant cost savings, and preventing delays.
                 - Transformed monolithic architecture to a Docker-based distributed system, delivering over 50% 
-                  improvement in system efficiency and reducing downtime by over 80%.
-                - Revamped an outdated codebase and upgraded from Python 2.7 to 3.8, leading to significant improvements 
-                  that included reducing boilerplate by 70%, enhancing security, decreasing resource utilization by 40%, 
-                  and boosting performance by 20%.
+                  improvement in system efficiency and reducing downtime by over 50%.
+                - Revamped an outdated codebase and upgraded from Python 2.7 to 3.8, leading to significant 
+                  improvements that included reducing boilerplate by 70%, enhancing security, decreasing resource 
+                  utilization by 40%, and boosting performance by 20%.
+
         -   role: Application Development Associate
             time: OCT 2017 – DEC 2019
             company: Accenture, Pune, India
             details: |
-                - Migrated legacy Perl codebase to Python, converted 15+ REST APIs based on SNMP with 0 bugs.
+                - Migrated legacy Perl codebase to Python, converting 30+ REST APIs & microservices based on SNMP.
                 - Built business intelligence dashboards that visualized data from multiple streams like SQL, MongoDB, 
-                  and REST API responses, resulting in a roughly 50% reduction in defect triage and testing times.
+                  and REST API responses, resulting in a 20% increase in data accuracy and reporting speed.
 
 awards:
     title: Awards & Achievements
