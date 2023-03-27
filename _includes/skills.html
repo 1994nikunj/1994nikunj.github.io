@@ -21,7 +21,14 @@
 			<div class="upper-row">
 				<h3 class="job-title">{{ skill.header }}</h3>
 			</div>
-			<div class="company">{{ skill.entry }}</div>
+			{% if skill.entry %}
+			<div class="pill">
+				{% assign skill_array = skill.entry | split: ' | ' %}
+				{% for skil in skill_array %}
+				<span class="pill">{{ skil }}</span>
+				{% endfor %}
+			</div>
+			{% endif %}
 		</div>
 	</div>
 	{% endfor %}

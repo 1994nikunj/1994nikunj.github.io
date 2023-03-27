@@ -176,7 +176,7 @@ personal-projects:
     contributions:
         -   title: Virtual Machine Core Utilization Monitoring
             link: https://github.com/1994nikunj/virtual-machine-node-analysis
-            tags: Virtualization | Python | UNIX | SSH | Monitoring | Paramiko | Data-Visualization
+            tags: Virtualization | Python | UNIX | SSH | Monitoring | Data-Visualization | Paramiko
             source: /assets/images/profile.png
             brief: "Created this custom solution as a freelancing project, It optimizes the monitoring and health checks
                       of remote systems in a Linux environment. By combining the power of the python and bash scripting 
@@ -307,10 +307,10 @@ skills:
             entry: Python | R | Java | C++ | JavaScript | Bash
 
         -   header: Web Development
-            entry: REST API | Node.js | React | GraphQL | Web frameworks (Express.js, Flask, Django) | HTML | CSS
+            entry: REST API | Node.js | React | GraphQL | Express.js | Flask | Django | HTML | CSS
 
         -   header: Databases
-            entry: MongoDB | SQL (MySQL, Oracle, SQLite) | PostgreSQL | Redis
+            entry: MongoDB | MySQL | Oracle | SQLite | PostgreSQL | Redis
 
         -   header: Cloud Technologies
             entry: AWS | Docker | Kubernetes | New Relic

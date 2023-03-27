@@ -38,3 +38,25 @@ function createToggleFunction(button, section, sectionName) {
         }
     };
 }
+
+// show more link logic for about-me section
+document.addEventListener("DOMContentLoaded", function() {
+  var showMoreLinks = document.querySelectorAll(".show-more-link");
+  showMoreLinks.forEach(function(showMoreLink) {
+    showMoreLink.addEventListener("click", function(event) {
+      event.preventDefault();
+      var summarySection = event.target.parentNode;
+      var shortText = summarySection.querySelector(".short-text");
+      var fullText = summarySection.querySelector(".full-text");
+      if (fullText.style.display === "none") {
+        fullText.style.display = "block";
+        shortText.style.display = "none";
+        event.target.textContent = "show less";
+      } else {
+        fullText.style.display = "none";
+        shortText.style.display = "inline";
+        event.target.textContent = "show more";
+      }
+    });
+  });
+});

@@ -55,6 +55,7 @@ p {
 
 	a {
 		color: $text-color;
+		font-size: 15px;
 	}
 
 	.profile-container {
@@ -174,9 +175,13 @@ p {
 	margin-right: 15px;
 	padding: 30px;
 
+	.section {
+		margin-bottom: 60px;
+	}
+
 	.section-title {
 		text-transform: uppercase;
-		font-size: 20px;
+		font-size: 15px;
 		font-weight: 500;
 		color: lighten($theme-color, 25%);
 		position: relative;
@@ -184,8 +189,13 @@ p {
 		margin-bottom: 20px;
 	}
 
-	.section {
-		margin-bottom: 60px;
+	.summary-section {
+	    justify-content: space-between;
+
+	    .show-more-link {
+	        color: $text-color;
+            font-size: 14px;
+        }
 	}
 
 	.experiences-section {
@@ -197,7 +207,7 @@ p {
 	.upper-row {
 		position: relative;
 		overflow: hidden;
-		margin-bottom: 2px;
+		margin-bottom: 5px;
 	}
 
 	.job-title,
@@ -221,6 +231,25 @@ p {
 		margin-bottom: 10px;
 		color: $text-grey;
 	}
+
+	.pill {
+        margin-bottom: 10px;
+        color: $text-grey;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pill span {
+        display: inline-block;
+        background-color: $theme-color;
+        color: #fff;
+        font-size: 13px;
+        padding: 5px 10px;
+        border-radius: 20px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        white-space: nowrap;
+    }
 
 	.project-title {
 		font-size: 16px;
@@ -307,17 +336,19 @@ p {
 
 .show-button {
 	display: block;
+	border: none;
 	width: 100%;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	border-radius: 20px;
-	padding: 30px;
+	padding: 20px;
 	background: darken($theme-color, 10%);
+	box-shadow: 0 5px 10px darken($theme-color, 40%);
 	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 15px;
 
 	&:hover {
-		color: lighten($theme-color, 30%);
-		box-shadow: 0 5px 10px darken($theme-color, 40%);
+		color: darken($theme-color, 30%);
+		background: lighten($theme-color, 5%);
+		box-shadow: 0 5px 20px darken($theme-color, 60%);
 	}
 }

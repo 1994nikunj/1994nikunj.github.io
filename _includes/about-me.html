@@ -1,18 +1,18 @@
 {% assign about-me = site.data.data.about-me %}
 {% if about-me %}
-<section class="section summary-section">
-
-  <h2 class="section-title">
+<section class="section">
+	<h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="fas fa-user fa-stack-1x fa-inverse"></i>
     </span>
-    {{ about-me.title }}
-  </h2>
+		{{ about-me.title }}
+	</h2>
 
-  <div class="summary">
-    {{ about-me.summary | markdownify }}
-  </div><!--//summary-->
-    
-</section><!--//section-->
+	<div class="summary-section">
+		<span class="short-text">{{ about-me.summary | truncatewords: 50 }}</span>
+		<div class="full-text" style="display: none;">{{ about-me.summary | markdownify }}</div>
+		<a href="#" class="show-more-link">show more</a>
+	</div>
+</section>
 {% endif %}
