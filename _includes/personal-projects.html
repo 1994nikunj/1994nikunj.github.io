@@ -2,33 +2,31 @@
 
 {% assign personal-projects = site.data.data.personal-projects %}
 {% if personal-projects %}
-<section class="section oss-section">
-	<h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
-    </span>
+
+<button class="show-button" data-target="projects" title="Click to expand/hide this section" title="Click to expand/hide this section">{{ personal-projects.title }}</button>
+
+<section id="projects" class="section oss-section hidden">
+
+	<!-- <h2 class="section-title">
+		<span class="fa-stack fa-xs">
+			<i class="fas fa-circle fa-stack-2x"></i>
+			<i class="fas fa-code fa-stack-1x fa-inverse"></i>
+		</span>
 		{{ personal-projects.title }}
-	</h2>
+	</h2> -->
 
 	{% for project in personal-projects.contributions %}
 	<div class="item">
 		<div class="meta">
 			<div class="upper-row">
 				{% if project.link %}
-				<a href="{{ project.link }}">{{ project.title }}</a>
+				<a href="{{ project.link }}" title="Click to go projects github repo">{{ project.title }}</a>
 				{% endif %}
 			</div>
 			{% if project.tags %}
 			<div class="company">{{ project.tags }}</div>
 			{% endif %}
 		</div>
-
-<!--		{% if project.source %}-->
-<!--        <div class="project-image">-->
-<!--            <img src="{{ project.source }}" alt="{{ project.title }}" />-->
-<!--        </div>-->
-<!--        {% endif %}-->
 
 		{% if project.brief %}
 		<div class="details">

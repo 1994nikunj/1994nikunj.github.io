@@ -1,6 +1,5 @@
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Nikunj Sharma
@@ -36,7 +35,7 @@ sidebar:
             -   item: Designing
             -   item: Organizing
 
-career-profile:
+about-me:
     title: About me
     summary: |
         I am eager to be a part of something that has purpose and aligns success with personal growth and fulfillment, 
@@ -303,7 +302,6 @@ activities:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
         -   header: Programming Languages
             entry: Python | R | Java | C++ | JavaScript | Bash

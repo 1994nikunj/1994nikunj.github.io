@@ -20,6 +20,7 @@ h6 {
 
 a {
 	color: $theme-color;
+	font-size: 20px;
 
 	&:hover {
 		text-decoration: none;
@@ -28,6 +29,7 @@ a {
 
 	&:focus {
 		text-decoration: none;
+		color: lighten($theme-color, 50%);
 	}
 }
 
@@ -133,29 +135,6 @@ p {
 		margin-bottom: 5px;
 	}
 
-	.education-container {
-		.item {
-			margin-bottom: 15px;
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
-
-		.meta {
-			color: rgba(256, 256, 256, 0.6);
-			font-weight: 500;
-			margin-bottom: 0px;
-			margin-top: 0;
-		}
-
-		.time {
-			color: rgba(256, 256, 256, 0.6);
-			font-weight: 500;
-			margin-bottom: 0px;
-		}
-	}
-
 	.languages-container {
 		.lang-desc {
 			color: rgba(256, 256, 256, 0.6);
@@ -209,8 +188,7 @@ p {
 		margin-bottom: 60px;
 	}
 
-	.experiences-section,
-	.educations-section {
+	.experiences-section {
 		.item {
 			margin-bottom: 30px;
 		}
@@ -321,4 +299,25 @@ p {
 	object-fit: contain;
 	max-height: 50%;
 	max-width: 50%;
+}
+
+.hidden {
+	display: none;
+}
+
+.show-button {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	padding: 30px;
+	background: darken($theme-color, 10%);
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+
+	&:hover {
+		color: lighten($theme-color, 30%);
+		box-shadow: 0 5px 10px darken($theme-color, 40%);
+	}
 }

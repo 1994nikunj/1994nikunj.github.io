@@ -2,14 +2,17 @@
 
 {% assign awards = site.data.data.awards %}
 {% if awards %}
-<section class="section experiences-section">
-    <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
-    </span>
+
+<button class="show-button" data-target="awards" title="Click to expand/hide this section">{{ awards.title }}</button>
+
+<section id="awards" class="section experiences-section hidden">
+    <!-- <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-trophy fa-stack-1x fa-inverse"></i>
+        </span>
         {{ awards.title }}
-    </h2>
+    </h2> -->
 
     {% for award in awards.info %}
     <div class="item">

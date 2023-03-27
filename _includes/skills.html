@@ -1,23 +1,28 @@
+<!--//SKILLS-->
+
 {% assign skills = site.data.data.skills %}
 {% if skills %}
-<section class="section experiences-section">
 
-	<h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-    </span>
+<button class="show-button" data-target="skills" title="Click to expand/hide this section">{{ skills.title }}</button>
+
+<section id="skills" class="section experiences-section hidden">
+
+	<!-- <h2 class="section-title">
+		<span class="fa-stack fa-xs">
+			<i class="fas fa-circle fa-stack-2x"></i>
+			<i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+		</span>
 		{{ skills.title }}
-	</h2>
+	</h2> -->
 
 	{% for skill in skills.toolset %}
 	<div class="item">
 		<div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title">{{ skill.header }}</h3>
-            </div>
+			<div class="upper-row">
+				<h3 class="job-title">{{ skill.header }}</h3>
+			</div>
 			<div class="company">{{ skill.entry }}</div>
-        </div>
+		</div>
 	</div>
 	{% endfor %}
 
