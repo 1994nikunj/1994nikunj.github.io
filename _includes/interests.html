@@ -12,9 +12,7 @@
 
     <ul class="list-unstyled interests-list">
         {% for interest in interests.info %}
-        <div class="item">
-            <div class="time">{{ interest.item }}</div>
-        </div>
+        <li>{{ interest.item }}</li>
         {% endfor %}
     </ul>
 
