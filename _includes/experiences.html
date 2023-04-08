@@ -3,18 +3,11 @@
 {% assign experiences = site.data.data.experiences %}
 {% if experiences %}
 
-<button class="show-button" data-target="experience" title="Click to expand/hide this section">{{ experiences.title }}</button>
+<button class="show-button" data-target="experience" title="Click to expand/hide this section">
+	{{ experiences.title }}
+</button>
 
 <section id="experience" class="section experiences-section hidden">
-
-    <!-- <h2 class="section-title">
-        <span class="fa-stack fa-xs">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-        </span>
-        {{ experiences.title }}
-    </h2> -->
-
     {% for experience in experiences.info %}
     <div class="item">
         <div class="meta">
@@ -30,9 +23,7 @@
             {{ experience.details | markdownify }}
         </div>
         {% endif %}
-
     </div>
     {% endfor %}
-
 </section>
 {% endif %}

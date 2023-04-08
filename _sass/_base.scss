@@ -41,15 +41,14 @@ p {
 	display: grid;
 	border-radius: 20px;
 	grid-template-columns: repeat(10, 1fr);
-	max-width: 1000px;
+	max-width: 900px;
 	margin: 0 auto;
 	position: relative;
 }
 
 .sidebar-wrapper {
-	border-radius: 20px;
 	grid-column: span 3;
-	order: 2;
+	order: 1;
 	color: $text-color;
 
 	a {
@@ -128,8 +127,7 @@ p {
 	}
 
 	.container-block {
-		margin-bottom: 15px;
-		padding: 20px;
+		padding: 10px;
 	}
 
 	.container-block-title {
@@ -182,7 +180,7 @@ p {
 	box-shadow: 0 5px 10px darken($theme-color, 40%);
 	grid-column: span 7;
 	background: $front;
-	margin-right: 15px;
+	margin-right: 18px;
 	padding: 30px;
 
 	.section {
@@ -326,20 +324,6 @@ p {
 	}
 }
 
-.project-image {
-	max-height: 200px;
-	overflow: hidden;
-	display: flex;
-	justify-content: left;
-	align-items: left;
-}
-
-.project-image img {
-	object-fit: contain;
-	max-height: 50%;
-	max-width: 50%;
-}
-
 .hidden {
 	display: none;
 }
@@ -358,7 +342,48 @@ p {
 
 	&:hover {
 		color: darken($theme-color, 30%);
-		background: lighten($theme-color, 5%);
+		background: lighten($theme-color, 3%);
 		box-shadow: 0 5px 20px darken($theme-color, 60%);
 	}
+}
+
+/* Form input and label styles */
+form input[type=text],
+form input[type=email],
+form textarea {
+    width: 100%;
+    color: darken($text-color, 40%);
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    background: lighten($front, 5%);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    resize: vertical;
+    box-shadow: 0 5px 10px darken($theme-color, 40%);
+}
+
+form button[type=submit] {
+    width: 100%;
+    padding: 10px;
+    background-color: $theme-color;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: $text-color;
+    box-shadow: 0 5px 10px darken($theme-color, 40%);
+}
+
+form button[type=submit]:hover {
+    background-color: lighten($theme-color, 30%);
+}
+
+form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer{
+    margin-top: 10px;
 }

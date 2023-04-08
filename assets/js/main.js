@@ -16,7 +16,6 @@ jQuery(document).ready(function ($) {
 // SHOW/HIDE CODE BLOCKS
 var showButtons = document.getElementsByClassName("show-button");
 
-// Update the text content of all buttons
 for (var i = 0; i < showButtons.length; i++) {
     var showButton = showButtons[i];
     var targetID = showButton.getAttribute("data-target");
@@ -39,7 +38,7 @@ function createToggleFunction(button, section, sectionName) {
     };
 }
 
-// show more link logic for about-me section
+// ABOUT-ME SECTION
 document.addEventListener("DOMContentLoaded", function() {
   var showMoreLinks = document.querySelectorAll(".show-more-link");
   showMoreLinks.forEach(function(showMoreLink) {

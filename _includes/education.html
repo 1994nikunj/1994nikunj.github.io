@@ -3,18 +3,11 @@
 {% assign education = site.data.data.education %}
 {% if education %}
 
-<button class="show-button" data-target="education" title="Click to expand/hide this section"> {{ education.title }}</button>
+<button class="show-button" data-target="education" title="Click to expand/hide this section">
+	{{ education.title }}
+</button>
 
 <section id="education" class="section experiences-section hidden">
-    
-    <!-- <h2 class="section-title">
-        <span class="fa-stack fa-xs">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-school fa-stack-1x fa-inverse"></i>
-        </span>
-        {{ education.title }}
-    </h2> -->
-
     {% for graduation in education.info %}
     <div class="item">
         <div class="meta">
@@ -26,6 +19,5 @@
         </div>
     </div>
     {% endfor %}
-
 </section>
 {% endif %}

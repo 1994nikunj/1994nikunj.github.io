@@ -11,26 +11,6 @@ sidebar:
     linkedin: 1994nikunj
     github: 1994nikunj
 
-    languages:
-        title: Languages
-        info:
-            -   idiom: Hindi
-                level: Native
-
-            -   idiom: English
-                level: Professional
-
-            -   idiom: Spanish
-                level: Beginner
-
-    interests:
-        title: Interests
-        info:
-            -   item: Computer Games
-            -   item: Motorbikes
-            -   item: Designing
-            -   item: Organizing
-
 about-me:
     title: About me
     summary: |
@@ -277,7 +257,7 @@ certifications:
             authors: Amazon Web Services (AWS)
             timeline: Issued May 2021
 
-activities:
+leadership-activities:
     title: Leadership & Activities
     item:
         -   title: Founder/Member, TechGeeks Blog

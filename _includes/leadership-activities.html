@@ -1,0 +1,23 @@
+<!--//LEADERSHIP & ACTIVITIES-->
+
+{% assign leadership-activities = site.data.data.leadership-activities %}
+{% if leadership-activities %}
+
+<button class="show-button" data-target="leadership-activities" title="Click to expand/hide this section">
+	{{ leadership-activities.title }}
+</button>
+
+<section id="leadership-activities" class="section publications-section hidden">
+    {% for publication in leadership-activities.item %}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{ publication.title }}</h3>
+                <div class="time">{{ publication.timeline }}</div>
+            </div>
+            <div class="company">{{ publication.authors }}</div>
+        </div>
+    </div>
+    {% endfor %}
+</section>
+{% endif %}

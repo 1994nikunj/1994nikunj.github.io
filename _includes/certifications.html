@@ -3,21 +3,13 @@
 {% assign certifications = site.data.data.certifications %}
 {% if certifications %}
 
-<button class="show-button" data-target="certifications" title="Click to expand/hide this section">{{ certifications.title }}</button>
+<button class="show-button" data-target="certifications" title="Click to expand/hide this section">
+	{{ certifications.title }}
+</button>
 
 <section id="certifications" class="section publications-section hidden">
-    
-    <!-- <h2 class="section-title">
-        <span class="fa-stack fa-xs">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-        </span>
-        {{ certifications.title }}
-    </h2> -->
-
     {% for certificate in certifications.papers %}
     <div class="item">
-
         <div class="meta">
             <div class="upper-row">
                 <h3 class="job-title">{{ certificate.title }}</h3>
@@ -25,9 +17,7 @@
             </div>
             <div class="company">{{ certificate.authors }}</div>
         </div>
-
     </div>
     {% endfor %}
-
 </section>
 {% endif %}

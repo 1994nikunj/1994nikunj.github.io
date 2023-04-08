@@ -3,20 +3,11 @@
 {% assign personal-projects = site.data.data.personal-projects %}
 {% if personal-projects %}
 
-<button class="show-button" data-target="projects" title="Click to expand/hide this section"
-		title="Click to expand/hide this section">{{ personal-projects.title }}
+<button class="show-button" data-target="projects" title="Click to expand/hide this section">
+	{{ personal-projects.title }}
 </button>
 
-<section id="projects" class="section oss-section hidden">
-
-	<!-- <h2 class="section-title">
-		<span class="fa-stack fa-xs">
-			<i class="fas fa-circle fa-stack-2x"></i>
-			<i class="fas fa-code fa-stack-1x fa-inverse"></i>
-		</span>
-		{{ personal-projects.title }}
-	</h2> -->
-
+<section class="section oss-section hidden" id="projects">
 	{% for project in personal-projects.contributions %}
 	<div class="item">
 		<div class="meta">
@@ -44,5 +35,4 @@
 	</div>
 	{% endfor %}
 </section>
-<!--//section-->
 {% endif %}
