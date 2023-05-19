@@ -1,19 +1,32 @@
-{% assign sidebar = site.data.data.sidebar %}
 <div class="sidebar-wrapper">
+	<div class="profile-container">
+		<div class="profile-left">
+			<h1 class="name">Software Developer</h1>
 
-  <div class="profile-container">
-    {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
-    {% endif %}
-    {% if sidebar.name %}
-    <h1 class="name">{{ sidebar.name }}</h1>
-    {% endif %}
-    {% if sidebar.tagline %}
-    <h3 class="tagline">{{ sidebar.tagline }}</h3>
-    {% endif %}
-  </div>
+			<h3 class="tagline">Hi, I'm Nikunj Sharma
+				<img src="assets/images/icons/hello.png" alt="US" class="flag-icon">
+			</h3>
 
-  {% include contact.html %}
-  {% include contact-me.html %}
+			<h5 class="about">
+				A passionate Software Developer based in United States.
+			</h5>
 
+			<div class="contact-list">
+				<a href="mailto:1994nikunj@gmail.com">
+					<img src="assets/images/icons/mail.png" alt="Mail" class="icon">
+				</a>
+				<a href="https://linkedin.com/in/1994nikunj" target="_blank">
+					<img src="assets/images/icons/linkedin.png" alt="LinkedIn" class="icon">
+				</a>
+				<a href="http://github.com/1994nikunj" target="_blank">
+					<img src="assets/images/icons/github.png" alt="GitHub" class="icon">
+				</a>
+			</div>
+		</div>
+		<div class="profile-right">
+			<img class="avatar"
+				src="{{ site.baseurl }}/assets/images/profile.png"
+				alt="profile picture" />
+		</div>
+	</div>
 </div>

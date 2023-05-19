@@ -1,18 +1,22 @@
-{% assign about-me = site.data.data.about-me %}
-{% if about-me %}
 <section class="section">
 	<h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-		{{ about-me.title }}
+		<span class="fa-stack fa-xs">
+			<i class="fas fa-circle fa-stack-2x"></i>
+			<i class="fas fa-user fa-stack-1x fa-inverse"></i>
+		</span>
+		Career Snapshot
 	</h2>
 
 	<div class="summary-section">
-		<span class="short-text">{{ about-me.summary | truncatewords: 50 }}</span>
-		<div class="full-text" style="display: none;">{{ about-me.summary | markdownify }}</div>
-		<a href="#" class="show-more-link">show more</a>
+		<span class="short-text">Results-driven IT professional with a solid five-year
+			track record in delivering scalable and robust software systems across
+			telecom and federal domains. Proficient in OOPS concepts, cloud computing,
+			and agile methodologies, I have successfully applied my ability in full stack
+			development, specializing in software architecture, system design, and
+			testing. Adept at leveraging technologies such as Python, React, AWS, and
+			more, I have consistently exceeded project expectations. Eagerly seeking an
+			exciting opportunity in a forward-thinking firm that fosters innovation,
+			collaboration, and values continuous growth.
+		</span>
 	</div>
 </section>
-{% endif %}

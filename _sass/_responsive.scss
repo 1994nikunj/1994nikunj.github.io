@@ -7,6 +7,70 @@
   .sidebar-wrapper {
     position: static;
     width: inherit;
+
+    .profile-container {
+      padding-left: 10px;
+      text-align: center;
+      color: $text-color;
+      border-radius: 10px;
+      background: linear-gradient(180deg, darken($theme-color, 30%) 0.00%, $theme-color 100.00%);
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .profile-left {
+        .name {
+          font-size: 30px;
+          font-weight: 900;
+          margin-bottom: 10px;
+          text-align: left;
+        }
+
+        .tagline {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 16px;
+          font-weight: 600;
+          margin: auto;
+          text-align: left;
+        }
+
+        .about {
+          color: rgba(255, 255, 255, 0.6);
+          font-size: 13px;
+          font-weight: 500;
+          margin-top: 5px;
+          text-align: left;
+          max-width: 200px;
+        }
+
+        .flag-icon {
+          width: 20px;
+          height: 20px;
+          vertical-align: top;
+        }
+
+        .contact-list {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+
+          .icon {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .profile-right {
+        .avatar {
+          width: 190px;
+        }
+      }
+    }
   }
 
   .wrapper {
@@ -26,10 +90,21 @@
   .main-wrapper .upper-row {
     margin-bottom: 0;
   }
+
+  .pill-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    border: 0.3px solid $theme-color;
+    padding: 5px;
+  }
+
 }
+
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -50,9 +125,7 @@
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
+@media (min-width: 1200px) {}
 
 /* Ex-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1400px) {
-}
+@media (min-width: 1400px) {}

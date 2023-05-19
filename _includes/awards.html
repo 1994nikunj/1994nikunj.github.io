@@ -1,29 +1,168 @@
 <!--//AWARDS & ACHIEVEMENTS-->
 
-{% assign awards = site.data.data.awards %}
-{% if awards %}
-
-<button class="show-button" data-target="awards" title="Click to expand/hide this section">
-	{{ awards.title }}
+<button class="show-button" data-target="awards" title="Click to expand/hide
+    this section">
+    Awards & Achievements
 </button>
 
 <section id="awards" class="section experiences-section hidden">
-    {% for award in awards.info %}
+
+    <!-- PINNACLE Award - Xtraordinaires Team -->
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ award.title }}</h3>
-                <div class="time">{{ award.time }}</div>
+                <h3 class="job-title">PINNACLE Award - Xtraordinaires Team</h3>
+                <div class="time">Feb 2021</div>
             </div>
-            <div class="company">{{ award.company }}</div>
+            <div class="company">Issued by Accenture</div>
         </div>
 
-        {% if award.tagline %}
         <div class="details">
-            {{ award.tagline | markdownify }}
+            Teams that demonstrate positive group behaviors and engagement
+            practices to ensure holistic employee experience. Your ONE Team
+            spirit is a fantastic example of how our people should bring their
+            best selves to work. Thank you for your commitment.
         </div>
-        {% endif %}
     </div>
-    {% endfor %}
+
+    <hr class="divider">
+
+    <!-- PINNACLE Award - Game Changer -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">PINNACLE Award - Game Changer</h3>
+                <div class="time">Jan 2021</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            Individuals who constantly learn and leverage new skills to
+            positively impact Client, Company, and People. Thank you for being
+            passionate about learning and continuously up-skilling yourself to
+            positively impact Accenture, our client, and our communities.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- TECH STAR -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">TECH STAR</h3>
+                <div class="time">Dec 2020</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            The TechStar Experience is Accenture's Global annual technology
+            award for individuals; it is the most prestigious award for
+            Accenture's technology practitioners. This award recognizes the Top
+            1% of the people in Accenture's Technology business.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- APEX Award -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">APEX Award</h3>
+                <div class="time">Jan 2020</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            You have been awarded the Delivery and Profitability award in the
+            Individual category. This is being awarded to you for contributing
+            to successful delivery and higher contract profitability. By winning
+            this coveted award, you have set an example among your peers and we
+            are confident that you will continue doing so in the coming years.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Project Award - Client Champ -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Project Award - Client Champ</h3>
+                <div class="time">Jan 2020</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            Nikunj recently joined the Team as an Associate Developer. Proving
+            himself in a brief span by single-handedly managing the project
+            development from offshore.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Client Award - Bug Buster -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Client Award - Bug Buster</h3>
+                <div class="time">Apr 2019</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            This award, along with a trophy, is being rewarded based on
+            defect/code quality during the complete system testing phase. These
+            were exclusive client-side awards appreciated and recognition by
+            senior leadership.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- ACE Award -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">ACE Award</h3>
+                <div class="time">Jan 2019</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            ACE (Accenture Celebrates Excellence) Award celebrates the true
+            spirit of our colleagues who have performed 'Greater Than' and
+            applauds people who have consistently delivered results that exceed
+            expectations, individually and as teams.
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- SPOT Award - Productivity Champ -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">SPOT Award - Productivity Champ</h3>
+                <div class="time">May 2018</div>
+            </div>
+            <div class="company">Issued by Accenture</div>
+        </div>
+
+        <div class="details">
+            Awarded for showing greater than 40% in subsequent weeks of
+            development stage showcasing productive increase and being the
+            outperforming individual within the team during the Project's life
+            cycle.
+        </div>
+    </div>
+
 </section>
-{% endif %}

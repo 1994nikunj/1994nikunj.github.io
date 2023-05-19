@@ -2,9 +2,9 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: $text-color-secondary;
-	background: linear-gradient(222deg, darken($base, 3%) 0.00%, darken($base, 0%) 100.00%);
+	background: $base;
 	font-size: 14px;
-	padding: 30px;
+	padding: 20px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -19,31 +19,29 @@ h6 {
 }
 
 a {
-	color: $theme-color;
+	color: lighten($theme-color, 10%);
 	font-size: 20px;
 
 	&:hover {
 		text-decoration: none;
-		color: lighten($theme-color, 30%);
+		color: darken($theme-color, 70%);
 	}
 
 	&:focus {
 		text-decoration: none;
-		color: lighten($theme-color, 50%);
+		color: darken($theme-color, 90%);
 	}
 }
 
 p {
-	line-height: 1.5;
+	line-height: 1.4;
 }
 
 .wrapper {
-	display: grid;
-	border-radius: 20px;
-	grid-template-columns: repeat(10, 1fr);
-	max-width: 900px;
-	margin: 0 auto;
+	border-radius: 10px;
+	max-width: 1200px;
 	position: relative;
+	margin: auto;
 }
 
 .sidebar-wrapper {
@@ -51,77 +49,63 @@ p {
 	order: 1;
 	color: $text-color;
 
-	a {
-		color: $text-color;
-		font-size: 15px;
-		animation: glowing 2000ms infinite;
-	}
-
-	@keyframes glowing {
-		0% {
-			color: $text-color;
-		}
-
-		50% {
-			color: lighten($theme-color, 20%);
-		}
-
-		100% {
-			color: $text-color;
-		}
-	}
-
 	.profile-container {
-		padding: 30px;
+		padding-top: 5px;
 		text-align: center;
 		color: $text-color;
-		border-radius: 20px;
-		background: linear-gradient(222deg, darken($theme-color, 15%) 0.00%, darken($theme-color, 0%) 100.00%);
-		box-shadow: 0 5px 10px darken($theme-color, 40%);
+		border-radius: 10px;
+		background: linear-gradient(180deg, darken($theme-color, 30%) 0.00%, $theme-color 100.00%);
 		margin-bottom: 15px;
-	}
+		display: flex;
+		justify-content: space-evenly;
 
-	.name {
-		font-size: 35px;
-		font-weight: 900;
-		margin-bottom: 10px;
-	}
+		.profile-left {
+			.name {
+				font-size: 50px;
+				font-weight: 900;
+				margin-bottom: 10px;
+				text-align: left;
+			}
 
-	.tagline {
-		color: rgba(256, 256, 256, 0.6);
-		font-size: 16px;
-		font-weight: 400;
-		margin-top: 0;
-		margin-bottom: 0;
-	}
+			.tagline {
+				color: rgba(255, 255, 255, 0.9);
+				font-size: 25px;
+				font-weight: 600;
+				margin: auto;
+				text-align: left;
+			}
 
-	.profile {
-		margin-bottom: 15px;
-	}
+			.about {
+				color: rgba(255, 255, 255, 0.6);
+				font-size: 15px;
+				font-weight: 500;
+				margin-top: 15px;
+				text-align: left;
+			}
 
-	//used for profile image
-	.avatar {
-		width: 200px;
-		margin-bottom: 15px;
-		border-radius: 20px;
-		box-shadow: 0 5px 10px darken($theme-color, 40%);
-	}
+			.flag-icon {
+				width: 25px;
+				height: 25px;
+				vertical-align: top;
+			}
 
-	.contact-list {
+			.contact-list {
+				margin-top: 25px;
+				list-style: none;
+				display: flex;
+				flex-wrap: wrap;
 
-		.fas,
-		.fab,
-		.far {
-			margin-right: 5px;
-			font-size: 18px;
-			vertical-align: middle;
+				.icon {
+					width: 45px;
+					height: 45px;
+					margin-right: 10px;
+				}
+			}
 		}
 
-		li {
-			margin-bottom: 15px;
-
-			&:last-child {
-				margin-bottom: 0;
+		.profile-right {
+			.avatar {
+				width: 250px;
 			}
 		}
 	}
@@ -143,55 +127,24 @@ p {
 		margin-top: 0;
 		margin-bottom: 5px;
 	}
-
-	.languages-container {
-		.lang-desc {
-			color: rgba(256, 256, 256, 0.6);
-		}
-	}
-
-	.languages-list {
-		margin-bottom: 0;
-
-		li {
-			margin-bottom: 10px;
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
-	}
-
-	.interests-list {
-		margin-bottom: 0;
-
-		li {
-			margin-bottom: 10px;
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
-	}
 }
 
 .main-wrapper {
-	border-radius: 20px;
-	box-shadow: 0 5px 10px darken($theme-color, 40%);
+	border-radius: 10px;
 	grid-column: span 7;
 	background: $front;
-	margin-right: 18px;
+	margin-top: 5px;
 	padding: 30px;
 
 	.section {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 
 	.section-title {
 		text-transform: uppercase;
 		font-size: 15px;
 		font-weight: 500;
-		color: lighten($theme-color, 25%);
+		color: $theme-color;
 		position: relative;
 		margin-top: 0;
 		margin-bottom: 20px;
@@ -208,7 +161,12 @@ p {
 
 	.experiences-section {
 		.item {
-			margin-bottom: 30px;
+			margin-bottom: 15px;
+		}
+
+		.details {
+			margin-top: 10px;
+			margin-bottom: 0;
 		}
 	}
 
@@ -221,9 +179,9 @@ p {
 	.job-title,
 	.degree {
 		color: $text-color;
-		font-size: 16px;
+		font-size: 20px;
 		margin-top: 0;
-		margin-bottom: 0;
+		margin-bottom: 5px;
 		font-weight: 500;
 	}
 
@@ -265,16 +223,6 @@ p {
 		margin-top: 0;
 		margin-bottom: 5px;
 		color: $text-color;
-	}
-
-	.projects-section {
-		.intro {
-			margin-bottom: 30px;
-		}
-
-		.item {
-			margin-bottom: 15px;
-		}
 	}
 
 	.publication-title {
@@ -333,57 +281,35 @@ p {
 	border: none;
 	width: 100%;
 	margin-bottom: 20px;
-	border-radius: 20px;
+	border-radius: 10px;
 	padding: 20px;
-	background: darken($theme-color, 10%);
+	background: $theme-color;
 	box-shadow: 0 5px 10px darken($theme-color, 40%);
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 1.6rem;
 
 	&:hover {
-		color: darken($theme-color, 30%);
-		background: lighten($theme-color, 3%);
-		box-shadow: 0 5px 20px darken($theme-color, 60%);
+		color: lighten($theme-color, 60%);
+		background: lighten($theme-color, 10%);
+	}
+
+	&:last-child {
+		margin-bottom: 0;
 	}
 }
 
-/* Form input and label styles */
-form input[type=text],
-form input[type=email],
-form textarea {
-    width: 100%;
-    color: darken($text-color, 40%);
-    padding: 5px;
-    font-size: 14px;
-    border: none;
-    background: lighten($front, 5%);
-    margin-bottom: 15px;
-    border-radius: 8px;
-    resize: vertical;
-    box-shadow: 0 5px 10px darken($theme-color, 40%);
+.pill-img {
+	width: 65px;
+	height: 65px;
+	margin-right: 10px;
+	border-radius: 15px;
+	border: 0.5px solid $theme-color;
+	padding: 5px;
 }
 
-form button[type=submit] {
-    width: 100%;
-    padding: 10px;
-    background-color: $theme-color;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    color: $text-color;
-    box-shadow: 0 5px 10px darken($theme-color, 40%);
-}
-
-form button[type=submit]:hover {
-    background-color: lighten($theme-color, 30%);
-}
-
-form::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.footer{
-    margin-top: 10px;
+.divider {
+	border-top: 2px solid darken($theme-color, 20%);
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }

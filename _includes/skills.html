@@ -1,37 +1,296 @@
 <!--//SKILLS-->
 
-{% assign skills = site.data.data.skills %}
-{% if skills %}
-
-<button class="show-button" data-target="skills" title="Click to expand/hide this section">{{ skills.title }}</button>
+<button class="show-button" data-target="skills" title="Click to expand/hide
+	this section">Skills & Proficiency</button>
 
 <section id="skills" class="section experiences-section hidden">
 
-	<!-- <h2 class="section-title">
-		<span class="fa-stack fa-xs">
-			<i class="fas fa-circle fa-stack-2x"></i>
-			<i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-		</span>
-		{{ skills.title }}
-	</h2> -->
-
-	{% for skill in skills.toolset %}
 	<div class="item">
 		<div class="meta">
 			<div class="upper-row">
-				<h3 class="job-title">{{ skill.header }}</h3>
+				<h3 class="job-title">Programming Languages</h3>
 			</div>
-			{% if skill.entry %}
 			<div class="pill">
-				{% assign skill_array = skill.entry | split: ' | ' %}
-				{% for skil in skill_array %}
-				<span class="pill">{{ skil }}</span>
-				{% endfor %}
+				<!-- Python -->
+				<a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/python.svg" alt="Python" class="pill-img">
+				</a>
+
+				<!-- Java -->
+				<a href="https://www.java.com/en/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/java.svg" alt="Java" class="pill-img">
+				</a>
+
+				<!-- C++ -->
+				<a href="https://www.cplusplus.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/c++.svg" alt="C++" class="pill-img">
+				</a>
+
+				<!-- JavaScript -->
+				<a href="https://www.javascript.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/javascript.svg" alt="JavaScript" class="pill-img">
+				</a>
+
+				<!-- Bash -->
+				<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/bash.svg" alt="Bash" class="pill-img">
+				</a>
 			</div>
-			{% endif %}
 		</div>
 	</div>
-	{% endfor %}
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Web Development</h3>
+			</div>
+			<div class="pill">
+				<!-- REST -->
+				<a href="https://restfulapi.net/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/rest.png" alt="REST" class="pill-img">
+				</a>
+
+				<!-- Node -->
+				<a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/node.svg" alt="Node" class="pill-img">
+				</a>
+
+				<!-- React -->
+				<a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/react.svg" alt="React" class="pill-img">
+				</a>
+
+				<!-- GraphQL -->
+				<a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/graphql.svg" alt="GraphQL" class="pill-img">
+				</a>
+
+				<!-- Express -->
+				<a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/express.png" alt="Express" class="pill-img">
+				</a>
+
+				<!-- Flask -->
+				<a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/flask.png" alt="Flask" class="pill-img">
+				</a>
+				
+				<!-- Django -->
+				<a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/django.svg" alt="Django" class="pill-img">
+				</a>
+
+				<!-- HTML -->
+				<a href="https://html.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/html.png" alt="HTML" class="pill-img">
+				</a>
+
+				<!-- CSS -->
+				<a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/css.png" alt="CSS" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Databases</h3>
+			</div>
+			<div class="pill">
+				<!-- MongoDB -->
+				<a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/mongodb.png" alt="MongoDB" class="pill-img">
+				</a>
+
+				<!-- MySQL -->
+				<a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/mysql.png" alt="MySQL" class="pill-img">
+				</a>
+
+				<!-- SQLite -->
+				<a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/sqlite.png" alt="SQLite" class="pill-img">
+				</a>
+
+				<!-- PostgreSQL -->
+				<a href="https://www.postgresql.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/postgresql.png" alt="PostgreSQL" class="pill-img">
+				</a>
+
+				<!-- Redis -->
+				<a href="https://redis.io/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/redis.png" alt="Redis" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Cloud Technologies</h3>
+			</div>
+			<div class="pill">
+				<!-- AWS -->
+				<a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/aws.svg" alt="AWS" class="pill-img">
+				</a>
+
+				<!-- Docker -->
+				<a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/docker.png" alt="Docker" class="pill-img">
+				</a>
+
+				<!-- Kubernetes -->
+				<a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/kubernetes.png" alt="Kubernetes" class="pill-img">
+				</a>
+
+				<!-- New Relic -->
+				<a href="https://newrelic.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/newrelic.png" alt="New Relic" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">DevOps (CI/CD)</h3>
+			</div>
+			<div class="pill">
+				<!-- Git -->
+				<a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/git.png" alt="Git" class="pill-img">
+				</a>
+
+				<!-- Jenkins -->
+				<a href="https://www.jenkins.io/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/jenkins.png" alt="Jenkins" class="pill-img">
+				</a>
+
+				<!-- Ansible -->
+				<a href="https://www.ansible.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/ansible.png" alt="Ansible" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Operating Systems</h3>
+			</div>
+			<div class="pill">
+				<!-- Windows -->
+				<a href="https://www.microsoft.com/en-us/windows" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/windows.png" alt="Windows" class="pill-img">
+				</a>
+
+				<!-- Linux -->
+				<a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/linux.png" alt="Linux" class="pill-img">
+				</a>
+
+				<!-- Unix -->
+				<a href="https://www.unix.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/unix.png" alt="Unix" class="pill-img">
+				</a>
+
+				<!-- Android -->
+				<a href="https://www.android.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/android.png" alt="Android" class="pill-img">
+				</a>
+
+				<!-- MacOS -->
+				<a href="https://www.apple.com/macos/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/macOS.png" alt="MacOS" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Cybersecurity</h3>
+			</div>
+			<div class="pill">
+				<!-- Splunk -->
+				<a href="https://www.splunk.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/splunk.png" alt="Splunk" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Big Data</h3>
+			</div>
+			<div class="pill">
+				<!-- Apache Kafka -->
+				<a href="https://kafka.apache.org/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/kafka.png" alt="Apache Kafka" class="pill-img">
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<hr class="divider">
+
+	<div class="item">
+		<div class="meta">
+			<div class="upper-row">
+				<h3 class="job-title">Tools</h3>
+			</div>
+			<div class="pill">
+				<!-- ChatGPT -->
+				<a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/ChatGPT.png" alt="ChatGPT" class="pill-img">
+				</a>
+
+				<!-- Jira -->
+				<a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/jira.png" alt="Jira" class="pill-img">
+				</a>
+
+				<!-- Postman -->
+				<a href="https://www.postman.com/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/postman.png" alt="Postman" class="pill-img">
+				</a>
+
+				<!-- Adobe Photoshop -->
+				<a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/photoshop.png" alt="Adobe Photoshop" class="pill-img">
+				</a>
+
+				<!-- Unreal Engine -->
+				<a href="https://www.unrealengine.com/en-US/" target="_blank" rel="noopener noreferrer">
+				<img src="assets/images/technology/unrealengine.png" alt="Unreal Engine" class="pill-img">
+				</a>
+
+			</div>
+		</div>
+	</div>
 
 </section>
-{% endif %}

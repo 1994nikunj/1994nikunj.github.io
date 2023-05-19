@@ -1,29 +1,131 @@
 <!--//PROFESSIONAL EXPERIENCE-->
 
-{% assign experiences = site.data.data.experiences %}
-{% if experiences %}
-
-<button class="show-button" data-target="experience" title="Click to expand/hide this section">
-	{{ experiences.title }}
+<button class="show-button" data-target="experience"
+    title="Click to expand/hide this section">
+    Experience
 </button>
 
 <section id="experience" class="section experiences-section hidden">
-    {% for experience in experiences.info %}
+
+    <!-- Graduate Student Assistant -->
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ experience.role }}</h3>
-                <div class="time">{{ experience.time }}</div>
+                <h3 class="job-title">Graduate Student Assistant</h3>
+                <div class="time">JAN 2023 - MAY 2023</div>
             </div>
-            <div class="company">{{ experience.company }}</div>
+            <div class="company">
+                Stevens Institute of Technology, New Jersey, United States
+            </div>
         </div>
 
-        {% if experience.details %}
-        <div class="details">
-            {{ experience.details | markdownify }}
-        </div>
-        {% endif %}
+        <ul>
+            <li>
+                Designed and implemented a cutting-edge web app utilizing
+                Flask,incorporating NLP expertise to achieve a 40% reduction in
+                processing time, a 25% increase in data analysis efficiency, and
+                a remarkable 75% cost savings, all while prioritizing code
+                reusability and maintainability.
+            </li>
+            <li>
+                Reduced manual efforts by implementing Python-based web scrapers
+                and Selenium automation for data mining, resulting in an 85%
+                increase in data collection efficiency and a 75% reduction in
+                errors.
+            </li>
+        </ul>
     </div>
-    {% endfor %}
+
+    <hr class="divider">
+
+    <!-- Application Development Senior Analyst -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Application Development Senior Analyst</h3>
+                <div class="time">JUN 2021 – JAN 2022</div>
+            </div>
+            <div class="company">
+                Accenture, Pune, India
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                Assisted design, development, and seamless integration of
+                backend technologies with cloud and REST services for highly
+                scalable fault-tolerant distributed enterprise systems handling
+                millions of requests.
+            </li>
+            <li>
+                Served as the primary point of contact for clients, supporting
+                all aspects of the Agile-based software development lifecycle
+                and mentoring fellow developers in code reviews and best
+                practices, resulting in a 20% improvement in code quality and
+                delivery times.
+            </li>
+        </ul>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Application Development Analyst -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Application Development Analyst</h3>
+                <div class="time">DEC 2019 – JUN 2021</div>
+            </div>
+            <div class="company">
+                Accenture, Pune, India
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                Expertly triaged multiple hotfix and uncovering hidden problems
+                for critical projects, resulting in significant cost savings,
+                and preventing delays.
+            </li>
+            <li>
+                Transformed monolithic architecture to a Docker-based
+                distributed system, delivering over 50% improvement in system
+                efficiency and reducing downtime by over 50%.
+            </li>
+            <li>Revamped an outdated codebase and upgraded from Python 2.7 to
+                3.8, leading to significant improvements that included reducing
+                boilerplate by 70%, enhancing security, decreasing resource
+                utilization by 40%, and boosting performance by 20%.
+            </li>
+        </ul>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Application Development Senior Analyst -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Application Development Associate</h3>
+                <div class="time">OCT 2017 – DEC 2019</div>
+            </div>
+            <div class="company">
+                Accenture, Pune, India
+            </div>
+        </div>
+
+        <ul>
+            <li>
+                Migrated legacy Perl codebase to Python, converting 30+ REST
+                APIs & microservices based on SNMP.
+            </li>
+            <li>
+                Built business intelligence dashboards that visualized data from
+                multiple streams like SQL, MongoDB, and REST API responses,
+                resulting in a 20% increase in data accuracy and reporting
+                speed.
+            </li>
+        </ul>
+    </div>
+
 </section>
-{% endif %}

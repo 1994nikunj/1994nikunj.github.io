@@ -1,23 +1,35 @@
 <!--//EDUCATION-->
 
-{% assign education = site.data.data.education %}
-{% if education %}
-
-<button class="show-button" data-target="education" title="Click to expand/hide this section">
-	{{ education.title }}
+<button class="show-button" data-target="education"
+    title="Click to expand/hide this section">
+    Education
 </button>
 
 <section id="education" class="section experiences-section hidden">
-    {% for graduation in education.info %}
+
+    <!-- Stevens Institute of Technology -->
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ graduation.degree }}</h3>
-                <div class="time">{{ graduation.time }}</div>
+                <h3 class="job-title">Master of Science, Computer Science</h3>
+                <div class="time">MAY 2023</div>
             </div>
-            <div class="company">{{ graduation.university }}</div>
+            <div class="company">Stevens Institute of Technology</div>
         </div>
     </div>
-    {% endfor %}
+
+    <hr class="divider">
+
+    <!-- Maharashtra Institute of Technology -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Bachelor of Engineering, Computer
+                    Engineering</h3>
+                <div class="time">MAY 2017</div>
+            </div>
+            <div class="company">Maharashtra Institute of Technology</div>
+        </div>
+    </div>
+
 </section>
-{% endif %}

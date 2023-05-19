@@ -1,23 +1,74 @@
 <!--//CERTIFICATIONS & LICENSES-->
 
-{% assign certifications = site.data.data.certifications %}
-{% if certifications %}
-
-<button class="show-button" data-target="certifications" title="Click to expand/hide this section">
-	{{ certifications.title }}
+<button class="show-button" data-target="certifications"
+    title="Click to expand/hide this section">
+    Certifications & Licenses
 </button>
 
 <section id="certifications" class="section publications-section hidden">
-    {% for certificate in certifications.papers %}
+
+    <!-- AWS Certified Solutions Architect – Associate -->
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ certificate.title }}</h3>
-                <div class="time">{{ certificate.timeline }}</div>
+                <h3 class="job-title">AWS Certified Solutions Architect –
+                    Associate</h3>
+                <div class="time">Issued May 2021</div>
             </div>
-            <div class="company">{{ certificate.authors }}</div>
+            <div class="company">Amazon Web Services (AWS)</div>
         </div>
     </div>
-    {% endfor %}
+
+    <hr class="divider">
+
+    <!-- TechStar DevelopsLeaders -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">TechStar DevelopsLeaders</h3>
+                <div class="time">Issued Jul 2021</div>
+            </div>
+            <div class="company">Accenture</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Getting Started with AWS Machine Learning -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Getting Started with AWS Machine Learning</h3>
+                <div class="time">Issued Jun 2021</div>
+            </div>
+            <div class="company">Coursera</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Problem Solving & Python -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Problem Solving & Python</h3>
+                <div class="time">Issued Sep 2020</div>
+            </div>
+            <div class="company">HackerRank</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Agile Software Development - Scrum -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Agile Software Development - Scrum</h3>
+                <div class="time">Issued Apr 2020</div>
+            </div>
+            <div class="company">Skillsoft Percipio</div>
+        </div>
+    </div>
+
 </section>
-{% endif %}

@@ -1,23 +1,60 @@
 <!--//LEADERSHIP & ACTIVITIES-->
 
-{% assign leadership-activities = site.data.data.leadership-activities %}
-{% if leadership-activities %}
-
-<button class="show-button" data-target="leadership-activities" title="Click to expand/hide this section">
-	{{ leadership-activities.title }}
+<button class="show-button" data-target="leadership-activities"
+    title="Click to expand/hide this section">
+    Leadership & Activities
 </button>
 
 <section id="leadership-activities" class="section publications-section hidden">
-    {% for publication in leadership-activities.item %}
+    
+    <!-- Founder/Member, TechGeeks Blog -->
     <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">{{ publication.title }}</h3>
-                <div class="time">{{ publication.timeline }}</div>
+                <h3 class="job-title">Founder/Member, TechGeeks Blog</h3>
+                <div class="time">MAY 2020 – DEC 2021</div>
             </div>
-            <div class="company">{{ publication.authors }}</div>
+            <div class="company">Accenture, India</div>
         </div>
     </div>
-    {% endfor %}
+
+    <hr class="divider">
+
+    <!-- Member/Coordinator, Fun Team -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Member/Coordinator, Fun Team</h3>
+                <div class="time">OCT 2020 – DEC 2021</div>
+            </div>
+            <div class="company">Accenture, India</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Digital Art/Content Creator -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Digital Art/Content Creator</h3>
+                <div class="time">N/A</div>
+            </div>
+            <div class="company">Self</div>
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- Google Developer Student Clubs -->
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">Google Developer Student Clubs</h3>
+                <div class="time">SEP 2022 – PRESENT</div>
+            </div>
+            <div class="company">Stevens Institute of Technology, US</div>
+        </div>
+    </div>
+
 </section>
-{% endif %}
